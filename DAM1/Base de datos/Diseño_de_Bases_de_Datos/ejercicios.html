@@ -1,0 +1,2075 @@
+<!DOCTYPE html>
+<html lang="es" class="js-focus-visible js" data-darkreader-mode="dynamic" data-darkreader-scheme="dark" data-platform="Win32" data-js-focus-visible=""><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">@layer {
+html {
+    background-color: var(--darkreader-background-ffffff, #181a1b) !important;
+}
+html {
+    color-scheme: dark !important;
+}
+iframe {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: var(--darkreader-background-ffffff, #181a1b);
+}
+html, body {
+    border-color: var(--darkreader-border-4c4c4c, #736b5e);
+    color: var(--darkreader-text-000000, #e8e6e3);
+}
+a {
+    color: var(--darkreader-text-0040ff, #3391ff);
+}
+table {
+    border-color: var(--darkreader-border-808080, #545b5e);
+}
+mark {
+    color: var(--darkreader-text-000000, #e8e6e3);
+}
+::placeholder {
+    color: var(--darkreader-text-a9a9a9, #b2aba1);
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: var(--darkreader-background-faffbd, #404400) !important;
+    color: var(--darkreader-text-000000, #e8e6e3) !important;
+}
+::selection {
+    background-color: var(--darkreader-background-0060d4, #004daa) !important;
+    color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+}
+::-moz-selection {
+    background-color: var(--darkreader-background-0060d4, #004daa) !important;
+    color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+}
+}</style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">c-wiz div > svg > circle, .jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula, a[data-testid="headerMediumLogo"]>svg, .d2l-navigation-link-image-container, .d2l-iframe-loading-container, div.mc-ip-hide[style*="background: rgb(255, 255, 255) !important"], [style*="color: rgb(0, 0, 1) !important;"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}
+[data-darkreader-inline-bg] {
+  background: var(--darkreader-inline-bg) !important;
+}
+[data-darkreader-inline-border-short] {
+  border: var(--darkreader-inline-border-short) !important;
+}
+[data-darkreader-inline-border-bottom-short] {
+  border-bottom: var(--darkreader-inline-border-bottom-short) !important;
+}
+[data-darkreader-inline-border-left-short] {
+  border-left: var(--darkreader-inline-border-left-short) !important;
+}
+[data-darkreader-inline-border-right-short] {
+  border-right: var(--darkreader-inline-border-right-short) !important;
+}
+[data-darkreader-inline-border-top-short] {
+  border-top: var(--darkreader-inline-border-top-short) !important;
+}
+[data-darkreader-inline-invert] {
+    filter: invert(100%) hue-rotate(180deg);
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: var(--darkreader-background-ffffff, #181a1b);
+   --darkreader-neutral-text: var(--darkreader-text-000000, #e8e6e3);
+   --darkreader-selection-background: var(--darkreader-background-0060d4, #004daa);
+   --darkreader-selection-text: var(--darkreader-text-ffffff, #e8e6e3);
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Apuntes de la UD 2 (RA 6) del módulo 0484 Bases de Datos (CFGS DAM/DAW)">
+      
+      
+        <meta name="author" content="Alejandro Martínez Cuesta">
+      
+      
+      
+        <link rel="prev" href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/09-data-modeler.html">
+      
+      
+        <link rel="next" href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/autoevaluacion.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/assets/favicon.svg">
+      <meta name="generator" content="zensical-0.0.64">
+    
+    
+      
+        <title>Ejercicios resueltos - UD 2 · Diseño de Bases de Datos</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="ejercicios_files/main.40d3fdbb.min_EgHJ.css"><style class="darkreader darkreader--sync" media="screen"></style>
+      
+        
+          
+        
+        <link rel="stylesheet" href="ejercicios_files/palette.812a03bb.min_EgHJ.css"><style class="darkreader darkreader--sync" media="screen"></style>
+      
+      
+
+
+    
+    
+      
+        <script src="ejercicios_files/shim_EgHJ.js" type="text/javascript"></script><meta name="darkreader" content="c757149ee64a488896f32643785ec4f2"><style class="darkreader darkreader--override" media="screen">c-wiz div {
+    --action-items-action-item-background-color: var(--darkreader-neutral-background) !important;
+}
+.jfk-bubble.gtx-bubble {
+    background-color: white !important;
+}
+.vimvixen-hint {
+    background-color: var(--darkreader-background-ffd76e, #684b00) !important;
+    border-color: var(--darkreader-background-c59d00, #9e7e00) !important;
+    color: var(--darkreader-text-302505, #d7d4cf) !important;
+}
+#vimvixen-console-frame {
+    color-scheme: light !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: var(--darkreader-background-add8e6, #1b4958) !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: var(--darkreader-background-cfecf5, #0f3a47) !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: var(--darkreader-background-f5f5f5, #1e2021) !important;
+}
+.tou-uknfeu {
+    background-color: var(--darkreader-background-faedda, #432c09) !important;
+}
+.tou-6i3zyv {
+    background-color: var(--darkreader-background-85c3d8, #245d70) !important;
+}
+div.mermaid-viewer-control-panel .btn {
+    background-color: var(--darkreader-neutral-background);
+    fill: var(--darkreader-neutral-text);
+}
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxEven {
+    fill: var(--darkreader-selection-background);
+    fill-opacity: 0.8 !important;
+}
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g g.nodes rect,
+svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+svg line.messageLine0,
+svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+mitid-authenticators-code-app > .code-app-container {
+    background-color: white !important;
+    padding-top: 1rem;
+}
+iframe#unpaywall[src$="unpaywall.html"] {
+    color-scheme: light !important;
+}
+select {
+    --darkreader-bg--form-control-background-color: rgba(22, 22, 22, 0) !important;
+}
+body#tumblr {
+    --darkreader-bg--secondary-accent: 31, 32, 34 !important;
+    --darkreader-bg--white: 23, 23, 23 !important;
+    --darkreader-text--black: 228, 224, 218 !important;
+}
+:host {
+    --d2l-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-button-icon-background-color-hover: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-color-ferrite: var(--darkreader-neutral-text) !important;
+    --d2l-color-sylvite: var(--darkreader-bg--d2l-color-sylvite) !important;
+    --d2l-dropdown-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-dropdown-border-color: var(--darkreader-border--d2l-color-mica) !important;
+    --d2l-input-backgroud-color: var(--darkreader-neutral-background) !important;
+    --d2l-menu-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-tooltip-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-tooltip-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+:host([_floating]) .d2l-floating-buttons-container {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-top-color: var(--darkreader-border--d2l-color-mica) !important;
+    opacity: 0.88 !important;
+}
+d2l-card {
+    background: var(--darkreader-neutral-background) !important;
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+d2l-dropdown-content > div,
+d2l-menu-item {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-radius: 10px !important;
+}
+d2l-empty-state-simple {
+    border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-button-filter > ul > li > a.vui-button {
+    border-color: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-label-text:has(.d2l-button-subtle-content):hover,
+.d2l-label-text:has(.d2l-button-subtle-content):focus,
+.d2l-label-text:has(.d2l-button-subtle-content):active {
+    background-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-navigation-centerer {
+    color: inherit !important;
+}
+.d2l-tabs-layout {
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+.d2l-input,
+.d2l-calendar-date,
+.d2l-htmleditor-container {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-collapsible-panel {
+    border: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+    border-radius: 0.4rem !important;
+}
+.d2l-collapsible-panel-divider {
+    border-bottom: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-w2d-flex {
+    border-bottom: 2px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-collapsible-panel scrolled,
+.d2l-collapsible-panel-header,
+.d2l-w2d-collection-fixed {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-loading-spinner-bg {
+    fill: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-loading-spinner-bg-stroke {
+    stroke: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-loading-spinner-wrapper svg path,
+.d2l-loading-spinner-wrapper svg circle {
+    fill: var(--darkreader-neutral-background) !important;
+}
+.d2l-twopanelselector-side.d2l-twopanelselector-side-sep {
+    background: var(--darkreader-bg--d2l-color-mica) !important;
+}
+.d2l-le-TreeAccordionItem-anchor::before {
+    background: var(--darkreader-bg--d2l-color-corundum) !important;
+}
+table[class|="moz-header"] {
+    background: none;
+}
+*[style*="color: rgba(0,0,0,"]:not([style*="color: rgba(0,0,0,0)"]),
+*[style*="color: rgba(0, 0, 0,"]:not([style*="color: rgba(0, 0, 0, 0)"]),
+*[style*="color:#000"]:not(.cell-input > span),
+*[style*="color:black"]:not(.cell-input > span),
+*[style*="color:#282828"]:not(.cell-input > span),
+*[style*="color:#444"]:not(.cell-input > span),
+*[style*="color: #222222"]:not(.cell-input > span) {
+    color: var(--darkreader-neutral-text) !important;
+}
+*[style*="background:#fff"],
+*[style*="background-color:#fff"],
+*[style*="background: #fff"],
+*[style*="background: rgb(255, 255, 255)"] {
+    background: var(--darkreader-neutral-background) !important;
+}
+*[bgcolor="#F5F5F5"],
+*[style*="background-color: #F5F5F5"] {
+    background: var(--darkreader-background-f5f5f5, #1e2021) !important;
+}
+*[style*="background: #e6e6e6"] {
+    background: var(--darkreader-background-e6e6e6, #26292b) !important;
+}
+body[style*="background: rgb(255, 255, 255) !important"] *:not(a),
+.body[style*="background-color: rgb(254, 254, 254) !important"] *:not(a) {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+div[style*="www.gstatic.com/android/"] {
+    background: none !important;
+}
+*[style*="background:#f9f9f9"] {
+    background: var(--darkreader-background-f9f9f9, #1b1e1f) !important;
+}
+body.mediawiki.skin-vector #mw-page-base {
+    background-image: none !important;
+}
+.overflow-hidden .spinning-bg,
+.overflow-hidden .solid-bg {
+    background: transparent !important;
+}
+*[style*="color: rgb(0,0,0) !imoprtant"][style*="--darkreader-inline-color"],
+*[style*="color: rgb(0, 0, 0) !important"][style*="--darkreader-inline-color"] {
+    -webkit-text-fill-color: var(--darkreader-inline-color) !important;
+}
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }</style>
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="ejercicios_files/extra_EgHJ.css"><style class="darkreader darkreader--sync" media="screen"></style>
+    
+    <script>__md_scope=new URL(".",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  <meta name="theme-color" content="#18222c"><meta name="color-scheme" content="dark"></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom" data-md-color-media="(prefers-color-scheme: dark)">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navegación"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ejercicios-resueltos" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/index.html" title="UD 2 · Diseño de Bases de Datos" class="md-header__button md-logo" aria-label="UD 2 · Diseño de Bases de Datos" data-md-component="logo">
+      
+  <img src="ejercicios_files/logo-ies-blanco_EgHJ.png" alt="UD 2 · Diseño de Bases de Datos">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navegación">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><path d="M4 5h16M4 12h16M4 19h16"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UD 2 · Diseño de Bases de Datos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Ejercicios resueltos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom" aria-label="Cambiar a modo oscuro" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom" aria-label="Cambiar a modo claro" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Buscar">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Buscar">
+  <button type="button" class="md-search__button">
+    Buscar
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" style="top: 62px;">
+                <div class="md-sidebar__scrollwrap" style="height: 656px;">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/index.html" title="UD 2 · Diseño de Bases de Datos" class="md-nav__button md-logo" aria-label="UD 2 · Diseño de Bases de Datos" data-md-component="logo">
+      
+  <img src="ejercicios_files/logo-ies-blanco_EgHJ.png" alt="UD 2 · Diseño de Bases de Datos">
+
+    </a>
+    UD 2 · Diseño de Bases de Datos
+  </label>
+  
+  <ul class="md-nav__list">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Inicio
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/caso-pixelvault.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  El caso PixelVault
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Apartados
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        
+          <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+            <label class="md-nav__title" for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Apartados
+
+            </label>
+            <ul class="md-nav__list">
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/01-proceso-de-diseno.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  1. El proceso de diseño
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/02-modelo-er.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  2. El modelo entidad/relación
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/03-er-ampliado.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  3. Débiles y E/R ampliado
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/04-modelo-relacional.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  4. El modelo relacional
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/05-paso-a-tablas.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  5. Del E/R a las tablas
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/06-integridad.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  6. Reglas de integridad
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/07-normalizacion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  7. Normalización
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/08-restricciones.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  8. Restricciones no representables
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/09-data-modeler.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  9. Oracle SQL Data Modeler
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked="checked">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Repaso
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        
+          <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+            <label class="md-nav__title" for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Repaso
+
+            </label>
+            <ul class="md-nav__list">
+              
+                
+                  
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Ejercicios resueltos
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/ejercicios.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Ejercicios resueltos
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="En esta página">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      En esta página
+    </label>
+    <ul class="md-nav__list" data-md-component="toc">
+      
+        <li class="md-nav__item">
+  <a href="#bloque-1-paso-a-tablas" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Bloque 1 · Paso a tablas
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 1 · Paso a tablas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 1 · 1:N con mínimo 0 en el lado 1
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 2 · N:M con combinaciones repetidas
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 3 · 1:1 con mínimos distintos
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 4 · Entidad débil por identificación
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 5 · Jerarquía: elegir estrategia
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 6 · Ternaria con un lado 1
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 7 · Reflexiva 1:N
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 8 · Caso integrador: speedrun
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-2-normalizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Bloque 2 · Normalización
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 2 · Normalización">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 9 · Dependencias y forma normal
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 10 · Normalizar un acta de partida
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 11 · Forma normal de Boyce-Codd
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-3-restricciones-no-representables" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Bloque 3 · Restricciones no representables
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 3 · Restricciones no representables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 12 · Analizar y documentar
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/autoevaluacion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Autoevaluación
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/glosario.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Glosario
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" style="top: 62px;">
+                <div class="md-sidebar__scrollwrap" style="height: 656px;">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="En esta página">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      En esta página
+    </label>
+    <ul class="md-nav__list" data-md-component="toc">
+      
+        <li class="md-nav__item">
+  <a href="#bloque-1-paso-a-tablas" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Bloque 1 · Paso a tablas
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 1 · Paso a tablas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 1 · 1:N con mínimo 0 en el lado 1
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 2 · N:M con combinaciones repetidas
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 3 · 1:1 con mínimos distintos
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 4 · Entidad débil por identificación
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 5 · Jerarquía: elegir estrategia
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-6" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 6 · Ternaria con un lado 1
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-7" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 7 · Reflexiva 1:N
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-8" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 8 · Caso integrador: speedrun
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-2-normalizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Bloque 2 · Normalización
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 2 · Normalización">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-9" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 9 · Dependencias y forma normal
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 10 · Normalizar un acta de partida
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-11" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 11 · Forma normal de Boyce-Codd
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bloque-3-restricciones-no-representables" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Bloque 3 · Restricciones no representables
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bloque 3 · Restricciones no representables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejercicio 12 · Analizar y documentar
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegación">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/index.html" class="md-path__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/ejercicios.html" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    Repaso
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<p><span class="kicker">UD 2 · Repaso</span></p>
+<h1 id="ejercicios-resueltos">Ejercicios resueltos<a class="headerlink" href="#ejercicios-resueltos" title="Permanent link">¶</a></h1>
+<p>Doce ejercicios de dificultad creciente, todos del mundo de los videojuegos pero <strong>fuera de PixelVault</strong>, para que practiques con situaciones nuevas. Intenta resolver cada uno en papel antes de desplegar la solución.</p>
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+<thead>
+<tr>
+<th>Bloque</th>
+<th>Ejercicios</th>
+<th>Apartados</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Paso a tablas</td>
+<td><a href="#ejercicio-1">1</a> a <a href="#ejercicio-8">8</a></td>
+<td><a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/05-paso-a-tablas.html">5</a> y <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/06-integridad.html">6</a></td>
+</tr>
+<tr>
+<td>Normalización</td>
+<td><a href="#ejercicio-9">9</a> a <a href="#ejercicio-11">11</a></td>
+<td><a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/07-normalizacion.html">7</a></td>
+</tr>
+<tr>
+<td>Restricciones no representables</td>
+<td><a href="#ejercicio-12">12</a></td>
+<td><a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/08-restricciones.html">8</a></td>
+</tr>
+</tbody>
+</table></div></div>
+<p>Recuerda el convenio de cardinalidad del <strong>extremo opuesto</strong>: el par <code>(mín, máx)</code> junto a una entidad B indica cuántas ocurrencias de B se relacionan con <strong>una</strong> ocurrencia de la otra entidad.</p>
+<h2 id="bloque-1-paso-a-tablas">Bloque 1 · Paso a tablas<a class="headerlink" href="#bloque-1-paso-a-tablas" title="Permanent link">¶</a></h2>
+<h3 id="ejercicio-1">Ejercicio 1 · 1:N con mínimo 0 en el lado 1<a class="headerlink" href="#ejercicio-1" title="Permanent link">¶</a></h3>
+<p>Una liga de eSports registra sus <strong>equipos</strong> y sus <strong>jugadores profesionales</strong>. Un jugador puede estar en un equipo o ser agente libre (sin equipo). Interesa la fecha en la que fichó por su equipo actual.</p>
+<figure class="diagrama">
+<svg class="er" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" width="720" role="img" aria-label="Ejercicio 1: EQUIPO ficha JUGADOR_PRO"><title>Ejercicio 1: EQUIPO ficha JUGADOR_PRO</title><style>.er text{font-family:Carlito, Calibri, 'Segoe UI', Arial, sans-serif;fill:var(--er-ink,#1E2B37);font-size:14px} .er .t-att{font-size:13px} .er .t-ent{font-weight:700;letter-spacing:.02em} .er .t-rel{font-weight:700;font-size:12.5px} .er .t-card{fill:var(--er-card,#027885);font-weight:700;font-size:12px} .er .t-type{fill:var(--er-teal,#0396A6);font-weight:700;font-size:12px} .er .t-role{fill:var(--er-muted,#5F7080);font-style:italic;font-size:12px} .er .t-note{fill:var(--er-muted,#5F7080);font-size:12px;font-style:italic} .er .t-cap{fill:var(--er-muted,#5F7080);font-size:12px} .er .t-isa{font-weight:700;font-size:11px} .er .t-tab{fill:#FFFFFF;font-weight:700;font-size:13px} .er .t-col{font-size:12.5px} .er .t-pk{font-weight:700} .er .t-fk{fill:var(--er-card,#027885);font-style:italic} .er .ent{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:2} .er .rel{fill:var(--er-rel-bg,#E3F4F6);stroke:var(--er-teal,#0396A6);stroke-width:2} .er .att{fill:var(--er-att-bg,#FFFFFF);stroke:var(--er-muted,#5F7080);stroke-width:1.4} .er .isa{fill:var(--er-isa-bg,#E3F7F2);stroke:var(--er-mint,#1ABC9C);stroke-width:2} .er .ln{stroke:var(--er-muted,#5F7080);stroke-width:1.5;fill:none} .er .ul{stroke:var(--er-ink,#1E2B37);stroke-width:1.2} .er .dash{stroke-dasharray:5 3} .er .agg{fill:none;stroke:var(--er-teal,#0396A6);stroke-width:1.8;stroke-dasharray:7 4} .er .new{stroke:var(--er-mint,#1ABC9C)!important;stroke-width:3!important} .er .tab{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .tabh{fill:var(--er-tab-head,#1E2B37);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .fkln{stroke:var(--er-teal,#0396A6);stroke-width:1.6;fill:none} .er .fkhead{fill:var(--er-teal,#0396A6)} .er .panel{fill:var(--er-panel,#F4F6F7);stroke:none}</style><style class="darkreader darkreader--sync" media="screen"></style><path class="ln" d="M169,100 L312,100"></path><path class="ln" d="M544.8,100 L408,100"></path><path class="ln" d="M360,130 L360,160"></path><path class="ln" d="M94.3,78 L70.3,44.5"></path><path class="ln" d="M128.9,78 L158,44"></path><path class="ln" d="M591.7,78 L561.6,41.9"></path><path class="ln" d="M622.2,78 L642.1,42.3"></path><path class="ln" d="M618.8,122 L634.2,160.4"></path><rect class="ent" x="51" y="78" width="118" height="44" rx="2"></rect><text class="t-ent" x="110" y="105" text-anchor="middle">EQUIPO</text><polygon class="rel" points="360,70 408,100 360,130 312,100"></polygon><text class="t-rel" x="360" y="104.5" text-anchor="middle">ficha</text><rect class="ent" x="544.8" y="78" width="130.5" height="44" rx="2"></rect><text class="t-ent" x="610" y="105" text-anchor="middle">JUGADOR_PRO</text><ellipse class="att" cx="360" cy="175" rx="51.5" ry="15"></ellipse><text class="t-att" x="360" y="179.5" text-anchor="middle">fecha_fichaje</text><ellipse class="att" cx="60" cy="30" rx="38.7" ry="15"></ellipse><text class="t-att" x="60" y="34.5" text-anchor="middle">id_equipo</text><line class="ul" x1="34.3" y1="37" x2="85.7" y2="37"></line><ellipse class="att" cx="170" cy="30" rx="34.1" ry="15"></ellipse><text class="t-att" x="170" y="34.5" text-anchor="middle">nombre</text><ellipse class="att" cx="550" cy="28" rx="30.7" ry="15"></ellipse><text class="t-att" x="550" y="32.5" text-anchor="middle">id_pro</text><line class="ul" x1="532.3" y1="35" x2="567.7" y2="35"></line><ellipse class="att" cx="650" cy="28" rx="25.9" ry="15"></ellipse><text class="t-att" x="650" y="32.5" text-anchor="middle">alias</text><ellipse class="att" cx="640" cy="175" rx="24.2" ry="15"></ellipse><text class="t-att" x="640" y="179.5" text-anchor="middle">pais</text><text class="t-type" x="360" y="64" text-anchor="middle">1:N</text><text class="t-card" x="191" y="92" text-anchor="middle">(0,1)</text><text class="t-card" x="522.8" y="92" text-anchor="middle">(0,N)</text></svg>
+
+</figure>
+
+<p>Obtén el esquema relacional e indica si la clave ajena admite nulos.</p>
+<details class="success">
+<summary>Solución</summary>
+<p>La relación es 1:N: junto a EQUIPO está el máximo 1 y junto a JUGADOR_PRO la N. Hay <strong>propagación de clave</strong> de EQUIPO (lado 1) a JUGADOR_PRO (lado N). El par junto a EQUIPO es <code>(0,1)</code>: un jugador puede no tener equipo, así que la clave ajena <strong>admite nulos</strong> (agentes libres). El atributo de la relación, <code>fecha_fichaje</code>, se propaga con ella.</p>
+<p></p><div class="esquema">
+<p><b>EQUIPO</b>(<u>id_equipo</u>, nombre)</p>
+<p><b>JUGADOR_PRO</b>(<u>id_pro</u>, alias, pais, <span class="fk">id_equipo → EQUIPO</span> NULL, fecha_fichaje NULL)</p>
+</div><p></p>
+<p><code>fecha_fichaje</code> también será nula para los agentes libres. Sería razonable documentar la restricción «<code>fecha_fichaje</code> es nula si y solo si <code>id_equipo</code> es nulo», que se puede implementar con un <code>CHECK</code>.</p>
+</details>
+<h3 id="ejercicio-2">Ejercicio 2 · N:M con combinaciones repetidas<a class="headerlink" href="#ejercicio-2" title="Permanent link">¶</a></h3>
+<p>Una plataforma de <em>streaming</em> registra qué <strong>videojuegos</strong> retransmite cada <strong>streamer</strong>. Un mismo streamer retransmite el mismo juego muchas veces, en días y horas distintos; de cada retransmisión interesa la fecha y hora de inicio y el número máximo de espectadores.</p>
+<figure class="diagrama">
+<svg class="er" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" width="720" role="img" aria-label="Ejercicio 2: STREAMER retransmite VIDEOJUEGO"><title>Ejercicio 2: STREAMER retransmite VIDEOJUEGO</title><style>.er text{font-family:Carlito, Calibri, 'Segoe UI', Arial, sans-serif;fill:var(--er-ink,#1E2B37);font-size:14px} .er .t-att{font-size:13px} .er .t-ent{font-weight:700;letter-spacing:.02em} .er .t-rel{font-weight:700;font-size:12.5px} .er .t-card{fill:var(--er-card,#027885);font-weight:700;font-size:12px} .er .t-type{fill:var(--er-teal,#0396A6);font-weight:700;font-size:12px} .er .t-role{fill:var(--er-muted,#5F7080);font-style:italic;font-size:12px} .er .t-note{fill:var(--er-muted,#5F7080);font-size:12px;font-style:italic} .er .t-cap{fill:var(--er-muted,#5F7080);font-size:12px} .er .t-isa{font-weight:700;font-size:11px} .er .t-tab{fill:#FFFFFF;font-weight:700;font-size:13px} .er .t-col{font-size:12.5px} .er .t-pk{font-weight:700} .er .t-fk{fill:var(--er-card,#027885);font-style:italic} .er .ent{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:2} .er .rel{fill:var(--er-rel-bg,#E3F4F6);stroke:var(--er-teal,#0396A6);stroke-width:2} .er .att{fill:var(--er-att-bg,#FFFFFF);stroke:var(--er-muted,#5F7080);stroke-width:1.4} .er .isa{fill:var(--er-isa-bg,#E3F7F2);stroke:var(--er-mint,#1ABC9C);stroke-width:2} .er .ln{stroke:var(--er-muted,#5F7080);stroke-width:1.5;fill:none} .er .ul{stroke:var(--er-ink,#1E2B37);stroke-width:1.2} .er .dash{stroke-dasharray:5 3} .er .agg{fill:none;stroke:var(--er-teal,#0396A6);stroke-width:1.8;stroke-dasharray:7 4} .er .new{stroke:var(--er-mint,#1ABC9C)!important;stroke-width:3!important} .er .tab{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .tabh{fill:var(--er-tab-head,#1E2B37);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .fkln{stroke:var(--er-teal,#0396A6);stroke-width:1.6;fill:none} .er .fkhead{fill:var(--er-teal,#0396A6)} .er .panel{fill:var(--er-panel,#F4F6F7);stroke:none}</style><style class="darkreader darkreader--sync" media="screen"></style><path class="ln" d="M169,100 L285.8,100"></path><path class="ln" d="M548.5,100 L434.2,100"></path><path class="ln" d="M337.6,121 L295.1,160.9"></path><path class="ln" d="M384.2,120.2 L432.6,160.5"></path><path class="ln" d="M94.3,78 L70.5,44.6"></path><path class="ln" d="M130.4,78 L162.6,43.4"></path><path class="ln" d="M610,78 L610,45"></path><rect class="ent" x="51" y="78" width="118" height="44" rx="2"></rect><text class="t-ent" x="110" y="105" text-anchor="middle">STREAMER</text><polygon class="rel" points="360,70 434.2,100 360,130 285.8,100"></polygon><text class="t-rel" x="360" y="104.5" text-anchor="middle">retransmite</text><rect class="ent" x="548.5" y="78" width="123" height="44" rx="2"></rect><text class="t-ent" x="610" y="105" text-anchor="middle">VIDEOJUEGO</text><ellipse class="att" cx="280" cy="175" rx="44.9" ry="15"></ellipse><text class="t-att" x="280" y="179.5" text-anchor="middle">fecha_hora</text><ellipse class="att" cx="450" cy="175" rx="66" ry="15"></ellipse><text class="t-att" x="450" y="179.5" text-anchor="middle">espectadores_max</text><ellipse class="att" cx="60" cy="30" rx="48.6" ry="15"></ellipse><text class="t-att" x="60" y="34.5" text-anchor="middle">id_streamer</text><line class="ul" x1="24.4" y1="37" x2="95.6" y2="37"></line><ellipse class="att" cx="175" cy="30" rx="27.4" ry="15"></ellipse><text class="t-att" x="175" y="34.5" text-anchor="middle">canal</text><ellipse class="att" cx="610" cy="30" rx="35.6" ry="15"></ellipse><text class="t-att" x="610" y="34.5" text-anchor="middle">id_juego</text><line class="ul" x1="587.4" y1="37" x2="632.6" y2="37"></line><text class="t-type" x="360" y="64" text-anchor="middle">N:M</text><text class="t-card" x="191" y="92" text-anchor="middle">(0,N)</text><text class="t-card" x="526.5" y="92" text-anchor="middle">(0,N)</text></svg>
+
+</figure>
+
+<details class="success">
+<summary>Solución</summary>
+<p>La N:M genera una tabla. Pero si la clave primaria fuera solo <code>(id_streamer, id_juego)</code>, el streamer no podría retransmitir el mismo juego dos veces. Hay que añadir <code>fecha_hora</code> a la clave:</p>
+<p></p><div class="esquema">
+<p><b>STREAMER</b>(<u>id_streamer</u>, canal)</p>
+<p><b>VIDEOJUEGO</b>(<u>id_juego</u>, ...)</p>
+<p><b>RETRANSMISION</b>(<u><span class="fk">id_streamer → STREAMER</span></u>, <u><span class="fk">id_juego → VIDEOJUEGO</span></u>, <u>fecha_hora</u>, espectadores_max)</p>
+</div><p></p>
+<p>Pregunta de ampliación: ¿haría falta <code>id_juego</code> en la clave? Un streamer no puede empezar dos retransmisiones a la vez, así que <code>(id_streamer, fecha_hora)</code> ya identifica la fila. Esa sería una clave primaria más ajustada, e <code>id_juego</code> quedaría como clave ajena <code>NOT NULL</code>. Las dos soluciones se aceptan si se justifican.</p>
+</details>
+<h3 id="ejercicio-3">Ejercicio 3 · 1:1 con mínimos distintos<a class="headerlink" href="#ejercicio-3" title="Permanent link">¶</a></h3>
+<p>En un juego de rol online, cada <strong>gremio</strong> está liderado por exactamente un <strong>personaje</strong>, y un personaje puede liderar como mucho un gremio (la mayoría no lidera ninguno).</p>
+<figure class="diagrama">
+<svg class="er" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" width="720" role="img" aria-label="Ejercicio 3: GREMIO es liderado por PERSONAJE"><title>Ejercicio 3: GREMIO es liderado por PERSONAJE</title><style>.er text{font-family:Carlito, Calibri, 'Segoe UI', Arial, sans-serif;fill:var(--er-ink,#1E2B37);font-size:14px} .er .t-att{font-size:13px} .er .t-ent{font-weight:700;letter-spacing:.02em} .er .t-rel{font-weight:700;font-size:12.5px} .er .t-card{fill:var(--er-card,#027885);font-weight:700;font-size:12px} .er .t-type{fill:var(--er-teal,#0396A6);font-weight:700;font-size:12px} .er .t-role{fill:var(--er-muted,#5F7080);font-style:italic;font-size:12px} .er .t-note{fill:var(--er-muted,#5F7080);font-size:12px;font-style:italic} .er .t-cap{fill:var(--er-muted,#5F7080);font-size:12px} .er .t-isa{font-weight:700;font-size:11px} .er .t-tab{fill:#FFFFFF;font-weight:700;font-size:13px} .er .t-col{font-size:12.5px} .er .t-pk{font-weight:700} .er .t-fk{fill:var(--er-card,#027885);font-style:italic} .er .ent{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:2} .er .rel{fill:var(--er-rel-bg,#E3F4F6);stroke:var(--er-teal,#0396A6);stroke-width:2} .er .att{fill:var(--er-att-bg,#FFFFFF);stroke:var(--er-muted,#5F7080);stroke-width:1.4} .er .isa{fill:var(--er-isa-bg,#E3F7F2);stroke:var(--er-mint,#1ABC9C);stroke-width:2} .er .ln{stroke:var(--er-muted,#5F7080);stroke-width:1.5;fill:none} .er .ul{stroke:var(--er-ink,#1E2B37);stroke-width:1.2} .er .dash{stroke-dasharray:5 3} .er .agg{fill:none;stroke:var(--er-teal,#0396A6);stroke-width:1.8;stroke-dasharray:7 4} .er .new{stroke:var(--er-mint,#1ABC9C)!important;stroke-width:3!important} .er .tab{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .tabh{fill:var(--er-tab-head,#1E2B37);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .fkln{stroke:var(--er-teal,#0396A6);stroke-width:1.6;fill:none} .er .fkhead{fill:var(--er-teal,#0396A6)} .er .panel{fill:var(--er-panel,#F4F6F7);stroke:none}</style><style class="darkreader darkreader--sync" media="screen"></style><path class="ln" d="M169,100 L286.2,100"></path><path class="ln" d="M551,100 L433.8,100"></path><path class="ln" d="M92.7,78 L66.3,44.4"></path><path class="ln" d="M127.3,78 L153.9,44.2"></path><path class="ln" d="M591.1,78 L562.4,44.5"></path><path class="ln" d="M627.3,78 L654.3,43.7"></path><rect class="ent" x="51" y="78" width="118" height="44" rx="2"></rect><text class="t-ent" x="110" y="105" text-anchor="middle">GREMIO</text><polygon class="rel" points="360,70 433.8,100 360,130 286.2,100"></polygon><text class="t-rel" x="360" y="104.5" text-anchor="middle">liderado_por</text><rect class="ent" x="551" y="78" width="118" height="44" rx="2"></rect><text class="t-ent" x="610" y="105" text-anchor="middle">PERSONAJE</text><ellipse class="att" cx="55" cy="30" rx="40.8" ry="15"></ellipse><text class="t-att" x="55" y="34.5" text-anchor="middle">id_gremio</text><line class="ul" x1="27.2" y1="37" x2="82.8" y2="37"></line><ellipse class="att" cx="165" cy="30" rx="34.1" ry="15"></ellipse><text class="t-att" x="165" y="34.5" text-anchor="middle">nombre</text><ellipse class="att" cx="550" cy="30" rx="48.3" ry="15"></ellipse><text class="t-att" x="550" y="34.5" text-anchor="middle">id_personaje</text><line class="ul" x1="514.7" y1="37" x2="585.3" y2="37"></line><ellipse class="att" cx="665" cy="30" rx="25.9" ry="15"></ellipse><text class="t-att" x="665" y="34.5" text-anchor="middle">nivel</text><text class="t-type" x="360" y="64" text-anchor="middle">1:1</text><text class="t-card" x="191" y="92" text-anchor="middle">(0,1)</text><text class="t-card" x="529" y="92" text-anchor="middle">(1,1)</text></svg>
+
+</figure>
+
+<details class="success">
+<summary>Solución</summary>
+<p>Es 1:1. Junto a PERSONAJE está <code>(1,1)</code>: todo gremio tiene exactamente un líder. Junto a GREMIO está <code>(0,1)</code>: un personaje lidera como mucho un gremio, y la mayoría ninguno. Según la regla 7, se propaga la clave de la entidad que tiene el <code>(1,1)</code> junto a ella, PERSONAJE, hacia la tabla GREMIO, con <code>NOT NULL</code> y <code>UNIQUE</code>:</p>
+<p></p><div class="esquema">
+<p><b>PERSONAJE</b>(<u>id_personaje</u>, nivel)</p>
+<p><b>GREMIO</b>(<u>id_gremio</u>, nombre, <span class="fk">id_lider → PERSONAJE</span> NOT NULL UNIQUE)</p>
+</div><p></p>
+<p>Si la hubiéramos puesto en PERSONAJE (<code>id_gremio_liderado</code>), la columna sería nula en casi todos los personajes. El <code>UNIQUE</code> impide que un personaje lidere dos gremios; sin él la relación sería 1:N.</p>
+</details>
+<h3 id="ejercicio-4">Ejercicio 4 · Entidad débil por identificación<a class="headerlink" href="#ejercicio-4" title="Permanent link">¶</a></h3>
+<p>Cada <strong>cuenta</strong> de un juego online puede tener varios <strong>personajes</strong>. El nombre de un personaje solo es único <strong>dentro de su cuenta</strong> (dos cuentas distintas pueden tener un personaje llamado «Aragorn»). Si se borra la cuenta, se borran sus personajes. Toda cuenta tiene al menos un personaje.</p>
+<figure class="diagrama">
+<svg class="er" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 210" width="720" role="img" aria-label="Ejercicio 4: PERSONAJE débil de CUENTA"><title>Ejercicio 4: PERSONAJE débil de CUENTA</title><style>.er text{font-family:Carlito, Calibri, 'Segoe UI', Arial, sans-serif;fill:var(--er-ink,#1E2B37);font-size:14px} .er .t-att{font-size:13px} .er .t-ent{font-weight:700;letter-spacing:.02em} .er .t-rel{font-weight:700;font-size:12.5px} .er .t-card{fill:var(--er-card,#027885);font-weight:700;font-size:12px} .er .t-type{fill:var(--er-teal,#0396A6);font-weight:700;font-size:12px} .er .t-role{fill:var(--er-muted,#5F7080);font-style:italic;font-size:12px} .er .t-note{fill:var(--er-muted,#5F7080);font-size:12px;font-style:italic} .er .t-cap{fill:var(--er-muted,#5F7080);font-size:12px} .er .t-isa{font-weight:700;font-size:11px} .er .t-tab{fill:#FFFFFF;font-weight:700;font-size:13px} .er .t-col{font-size:12.5px} .er .t-pk{font-weight:700} .er .t-fk{fill:var(--er-card,#027885);font-style:italic} .er .ent{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:2} .er .rel{fill:var(--er-rel-bg,#E3F4F6);stroke:var(--er-teal,#0396A6);stroke-width:2} .er .att{fill:var(--er-att-bg,#FFFFFF);stroke:var(--er-muted,#5F7080);stroke-width:1.4} .er .isa{fill:var(--er-isa-bg,#E3F7F2);stroke:var(--er-mint,#1ABC9C);stroke-width:2} .er .ln{stroke:var(--er-muted,#5F7080);stroke-width:1.5;fill:none} .er .ul{stroke:var(--er-ink,#1E2B37);stroke-width:1.2} .er .dash{stroke-dasharray:5 3} .er .agg{fill:none;stroke:var(--er-teal,#0396A6);stroke-width:1.8;stroke-dasharray:7 4} .er .new{stroke:var(--er-mint,#1ABC9C)!important;stroke-width:3!important} .er .tab{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .tabh{fill:var(--er-tab-head,#1E2B37);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .fkln{stroke:var(--er-teal,#0396A6);stroke-width:1.6;fill:none} .er .fkhead{fill:var(--er-teal,#0396A6)} .er .panel{fill:var(--er-panel,#F4F6F7);stroke:none}</style><style class="darkreader darkreader--sync" media="screen"></style><path class="ln" d="M169,100 L304,100"></path><path class="ln" d="M546,100 L416,100"></path><path class="ln" d="M94.3,78 L70.4,44.5"></path><path class="ln" d="M127.3,78 L154.1,43.8"></path><path class="ln" d="M586,127 L542.4,176"></path><path class="ln" d="M610,73 L610,45"></path><path class="ln" d="M632.2,127 L668.8,171.5"></path><rect class="ent" x="51" y="78" width="118" height="44" rx="2"></rect><text class="t-ent" x="110" y="105" text-anchor="middle">CUENTA</text><polygon class="rel" points="360,64 416,100 360,136 304,100"></polygon><polygon class="rel" points="360,70 408,100 360,130 312,100"></polygon><text class="t-rel" x="360" y="104.5" text-anchor="middle">tiene</text><rect class="ent" x="546" y="73" width="128" height="54" rx="3"></rect><rect class="ent" x="551" y="78" width="118" height="44" rx="2"></rect><text class="t-ent" x="610" y="105" text-anchor="middle">PERSONAJE</text><ellipse class="att" cx="60" cy="30" rx="40.2" ry="15"></ellipse><text class="t-att" x="60" y="34.5" text-anchor="middle">id_cuenta</text><line class="ul" x1="32.8" y1="37" x2="87.2" y2="37"></line><ellipse class="att" cx="165" cy="30" rx="27.9" ry="15"></ellipse><text class="t-att" x="165" y="34.5" text-anchor="middle">email</text><ellipse class="att" cx="530" cy="190" rx="34.1" ry="15"></ellipse><text class="t-att" x="530" y="194.5" text-anchor="middle">nombre</text><line class="ul dash" x1="508.9" y1="197" x2="551.1" y2="197"></line><ellipse class="att" cx="610" cy="30" rx="27.4" ry="15"></ellipse><text class="t-att" x="610" y="34.5" text-anchor="middle">clase</text><ellipse class="att" cx="680" cy="185" rx="25.9" ry="15"></ellipse><text class="t-att" x="680" y="189.5" text-anchor="middle">nivel</text><text class="t-type" x="360" y="58" text-anchor="middle">1:N · ID</text><text class="t-card" x="191" y="92" text-anchor="middle">(1,1)</text><text class="t-card" x="524" y="92" text-anchor="middle">(1,N)</text></svg>
+
+</figure>
+
+<details class="success">
+<summary>Solución</summary>
+<p>PERSONAJE es débil por identificación: la clave de CUENTA se <strong>propaga</strong> a PERSONAJE y, junto con el discriminador <code>nombre</code>, forma su clave primaria. La clave ajena va con borrado en cascada.</p>
+<p></p><div class="esquema">
+<p><b>CUENTA</b>(<u>id_cuenta</u>, email UNIQUE)</p>
+<p><b>PERSONAJE</b>(<u><span class="fk">id_cuenta → CUENTA</span></u>, <u>nombre</u>, clase, nivel) <span class="nota">— ON DELETE CASCADE</span></p>
+</div><p></p>
+<p>El <code>(1,N)</code> junto a PERSONAJE («toda cuenta tiene al menos un personaje») <strong>no</strong> queda garantizado por las tablas: es una restricción no representable que hay que documentar.</p>
+</details>
+<h3 id="ejercicio-5">Ejercicio 5 · Jerarquía: elegir estrategia<a class="headerlink" href="#ejercicio-5" title="Permanent link">¶</a></h3>
+<p>Los <strong>objetos</strong> de un juego tienen identificador, nombre, peso y valor en oro. Todo objeto es exactamente de uno de estos tipos: <strong>arma</strong> (daño), <strong>armadura</strong> (defensa y ranura) o <strong>consumible</strong> (efecto y duración en segundos). Los subtipos no participan en ninguna relación propia.</p>
+<figure class="diagrama">
+<svg class="er" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" role="img" aria-label="Ejercicio 5: jerarquía de OBJETO"><title>Ejercicio 5: jerarquía de OBJETO</title><style>.er text{font-family:Carlito, Calibri, 'Segoe UI', Arial, sans-serif;fill:var(--er-ink,#1E2B37);font-size:14px} .er .t-att{font-size:13px} .er .t-ent{font-weight:700;letter-spacing:.02em} .er .t-rel{font-weight:700;font-size:12.5px} .er .t-card{fill:var(--er-card,#027885);font-weight:700;font-size:12px} .er .t-type{fill:var(--er-teal,#0396A6);font-weight:700;font-size:12px} .er .t-role{fill:var(--er-muted,#5F7080);font-style:italic;font-size:12px} .er .t-note{fill:var(--er-muted,#5F7080);font-size:12px;font-style:italic} .er .t-cap{fill:var(--er-muted,#5F7080);font-size:12px} .er .t-isa{font-weight:700;font-size:11px} .er .t-tab{fill:#FFFFFF;font-weight:700;font-size:13px} .er .t-col{font-size:12.5px} .er .t-pk{font-weight:700} .er .t-fk{fill:var(--er-card,#027885);font-style:italic} .er .ent{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:2} .er .rel{fill:var(--er-rel-bg,#E3F4F6);stroke:var(--er-teal,#0396A6);stroke-width:2} .er .att{fill:var(--er-att-bg,#FFFFFF);stroke:var(--er-muted,#5F7080);stroke-width:1.4} .er .isa{fill:var(--er-isa-bg,#E3F7F2);stroke:var(--er-mint,#1ABC9C);stroke-width:2} .er .ln{stroke:var(--er-muted,#5F7080);stroke-width:1.5;fill:none} .er .ul{stroke:var(--er-ink,#1E2B37);stroke-width:1.2} .er .dash{stroke-dasharray:5 3} .er .agg{fill:none;stroke:var(--er-teal,#0396A6);stroke-width:1.8;stroke-dasharray:7 4} .er .new{stroke:var(--er-mint,#1ABC9C)!important;stroke-width:3!important} .er .tab{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .tabh{fill:var(--er-tab-head,#1E2B37);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .fkln{stroke:var(--er-teal,#0396A6);stroke-width:1.6;fill:none} .er .fkhead{fill:var(--er-teal,#0396A6)} .er .panel{fill:var(--er-panel,#F4F6F7);stroke:none}</style><style class="darkreader darkreader--sync" media="screen"></style><path class="ln" d="M301,52 L176.5,35"></path><path class="ln" d="M301,68.4 L182.5,85.4"></path><path class="ln" d="M419,51.6 L545,33.6"></path><path class="ln" d="M419,68.4 L532.4,84.6"></path><path class="ln" d="M360,82 L360,121"></path><path class="ln" d="M360,169 L360,188.5"></path><path class="ln" d="M150,188.5 L570,188.5"></path><path class="ln" d="M150,188.5 L150,208"></path><path class="ln" d="M360,188.5 L360,208"></path><path class="ln" d="M570,188.5 L570,208"></path><path class="ln" d="M150,252 L150,270"></path><path class="ln" d="M340,252 L322.7,271"></path><path class="ln" d="M380,252 L397.4,271.2"></path><path class="ln" d="M554,252 L540.3,270.8"></path><path class="ln" d="M598,252 L622.5,271.3"></path><rect class="ent" x="301" y="38" width="118" height="44" rx="2"></rect><text class="t-ent" x="360" y="65" text-anchor="middle">OBJETO</text><ellipse class="att" cx="140" cy="30" rx="38.7" ry="15"></ellipse><text class="t-att" x="140" y="34.5" text-anchor="middle">id_objeto</text><line class="ul" x1="114.3" y1="37" x2="165.7" y2="37"></line><ellipse class="att" cx="150" cy="90" rx="34.1" ry="15"></ellipse><text class="t-att" x="150" y="94.5" text-anchor="middle">nombre</text><ellipse class="att" cx="570" cy="30" rx="25.7" ry="15"></ellipse><text class="t-att" x="570" y="34.5" text-anchor="middle">peso</text><ellipse class="att" cx="570" cy="90" rx="40.2" ry="15"></ellipse><text class="t-att" x="570" y="94.5" text-anchor="middle">valor_oro</text><rect class="ent" x="91" y="208" width="118" height="44" rx="2"></rect><text class="t-ent" x="150" y="235" text-anchor="middle">ARMA</text><rect class="ent" x="301" y="208" width="118" height="44" rx="2"></rect><text class="t-ent" x="360" y="235" text-anchor="middle">ARMADURA</text><rect class="ent" x="508.5" y="208" width="123" height="44" rx="2"></rect><text class="t-ent" x="570" y="235" text-anchor="middle">CONSUMIBLE</text><polygon class="isa" points="360,121 394,169 326,169"></polygon><text class="t-isa" x="360" y="158" text-anchor="middle">ES UN</text><ellipse class="att" cx="150" cy="285" rx="27.4" ry="15"></ellipse><text class="t-att" x="150" y="289.5" text-anchor="middle">danio</text><ellipse class="att" cx="310" cy="285" rx="35.3" ry="15"></ellipse><text class="t-att" x="310" y="289.5" text-anchor="middle">defensa</text><ellipse class="att" cx="410" cy="285" rx="32.1" ry="15"></ellipse><text class="t-att" x="410" y="289.5" text-anchor="middle">ranura</text><ellipse class="att" cx="530" cy="285" rx="32.1" ry="15"></ellipse><text class="t-att" x="530" y="289.5" text-anchor="middle">efecto</text><ellipse class="att" cx="640" cy="285" rx="43.4" ry="15"></ellipse><text class="t-att" x="640" y="289.5" text-anchor="middle">duracion_s</text><text class="t-type" x="402" y="149">(total, exclusiva)</text></svg>
+
+</figure>
+
+<p>Transforma la jerarquía con las estrategias B y C, y di cuál elegirías.</p>
+<details class="success">
+<summary>Solución</summary>
+<p><strong>Estrategia B (solo subtipos).</strong> Es posible porque la jerarquía es total y exclusiva:</p>
+<p></p><div class="esquema">
+<p><b>ARMA</b>(<u>id_objeto</u>, nombre, peso, valor_oro, danio)</p>
+<p><b>ARMADURA</b>(<u>id_objeto</u>, nombre, peso, valor_oro, defensa, ranura)</p>
+<p><b>CONSUMIBLE</b>(<u>id_objeto</u>, nombre, peso, valor_oro, efecto, duracion_s)</p>
+</div><p></p>
+<p>Problema: nada impide que el mismo <code>id_objeto</code> aparezca en dos tablas (habría que documentarlo), y si otra entidad (por ejemplo, el inventario) quisiera referenciar «un objeto», no tendría una única tabla a la que apuntar.</p>
+<p><strong>Estrategia C (una sola tabla):</strong></p>
+<p></p><div class="esquema">
+<p><b>OBJETO</b>(<u>id_objeto</u>, nombre, peso, valor_oro, tipo, danio NULL, defensa NULL, ranura NULL, efecto NULL, duracion_s NULL)</p>
+</div><p></p>
+<p>Con un <code>CHECK</code> que obligue a que <code>tipo IN ('ARMA','ARMADURA','CONSUMIBLE')</code> y a que solo estén rellenas las columnas de su tipo.</p>
+<p><strong>Elección:</strong> la <strong>C</strong>. Los subtipos tienen solo uno o dos atributos cada uno y ninguna relación propia, así que una sola tabla es más sencilla de consultar y cualquier otra tabla podrá referenciar a OBJETO. Los nulos son pocos y están controlados por el <code>CHECK</code>. (La estrategia A también sería correcta, aunque más costosa de consultar.)</p>
+</details>
+<h3 id="ejercicio-6">Ejercicio 6 · Ternaria con un lado 1<a class="headerlink" href="#ejercicio-6" title="Permanent link">¶</a></h3>
+<p>En una liga, un <strong>jugador profesional</strong> participa en <strong>torneos</strong> con un <strong>equipo</strong>. En un mismo torneo, un jugador juega siempre con <strong>un único equipo</strong>, pero en torneos distintos puede ir con equipos distintos. Interesa el dorsal que lleva en cada torneo.</p>
+<figure class="diagrama">
+<svg class="er" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" role="img" aria-label="Ejercicio 6: ternaria participa con un lado 1"><title>Ejercicio 6: ternaria participa con un lado 1</title><style>.er text{font-family:Carlito, Calibri, 'Segoe UI', Arial, sans-serif;fill:var(--er-ink,#1E2B37);font-size:14px} .er .t-att{font-size:13px} .er .t-ent{font-weight:700;letter-spacing:.02em} .er .t-rel{font-weight:700;font-size:12.5px} .er .t-card{fill:var(--er-card,#027885);font-weight:700;font-size:12px} .er .t-type{fill:var(--er-teal,#0396A6);font-weight:700;font-size:12px} .er .t-role{fill:var(--er-muted,#5F7080);font-style:italic;font-size:12px} .er .t-note{fill:var(--er-muted,#5F7080);font-size:12px;font-style:italic} .er .t-cap{fill:var(--er-muted,#5F7080);font-size:12px} .er .t-isa{font-weight:700;font-size:11px} .er .t-tab{fill:#FFFFFF;font-weight:700;font-size:13px} .er .t-col{font-size:12.5px} .er .t-pk{font-weight:700} .er .t-fk{fill:var(--er-card,#027885);font-style:italic} .er .ent{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:2} .er .rel{fill:var(--er-rel-bg,#E3F4F6);stroke:var(--er-teal,#0396A6);stroke-width:2} .er .att{fill:var(--er-att-bg,#FFFFFF);stroke:var(--er-muted,#5F7080);stroke-width:1.4} .er .isa{fill:var(--er-isa-bg,#E3F7F2);stroke:var(--er-mint,#1ABC9C);stroke-width:2} .er .ln{stroke:var(--er-muted,#5F7080);stroke-width:1.5;fill:none} .er .ul{stroke:var(--er-ink,#1E2B37);stroke-width:1.2} .er .dash{stroke-dasharray:5 3} .er .agg{fill:none;stroke:var(--er-teal,#0396A6);stroke-width:1.8;stroke-dasharray:7 4} .er .new{stroke:var(--er-mint,#1ABC9C)!important;stroke-width:3!important} .er .tab{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .tabh{fill:var(--er-tab-head,#1E2B37);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .fkln{stroke:var(--er-teal,#0396A6);stroke-width:1.6;fill:none} .er .fkhead{fill:var(--er-teal,#0396A6)} .er .panel{fill:var(--er-panel,#F4F6F7);stroke:none}</style><style class="darkreader darkreader--sync" media="screen"></style><path class="ln" d="M175.2,90 L301.4,90"></path><path class="ln" d="M551,90 L418.6,90"></path><path class="ln" d="M360,218 L360,120"></path><path class="ln" d="M387,106.2 L490.6,168.4"></path><rect class="ent" x="44.8" y="68" width="130.5" height="44" rx="2"></rect><text class="t-ent" x="110" y="95" text-anchor="middle">JUGADOR_PRO</text><rect class="ent" x="551" y="68" width="118" height="44" rx="2"></rect><text class="t-ent" x="610" y="95" text-anchor="middle">TORNEO</text><rect class="ent" x="301" y="218" width="118" height="44" rx="2"></rect><text class="t-ent" x="360" y="245" text-anchor="middle">EQUIPO</text><polygon class="rel" points="360,60 418.6,90 360,120 301.4,90"></polygon><text class="t-rel" x="360" y="94.5" text-anchor="middle">participa</text><ellipse class="att" cx="510" cy="180" rx="30.6" ry="15"></ellipse><text class="t-att" x="510" y="184.5" text-anchor="middle">dorsal</text><text class="t-type" x="360" y="54" text-anchor="middle">N:M:1</text><text class="t-card" x="197.2" y="82" text-anchor="middle">(0,N)</text><text class="t-card" x="529" y="82" text-anchor="middle">(0,N)</text><text class="t-card" x="385" y="160" text-anchor="middle">(1,1)</text></svg>
+
+</figure>
+
+<details class="success">
+<summary>Solución</summary>
+<p>Fijando jugador y torneo, el equipo es <strong>uno</strong>: por eso EQUIPO tiene el 1 y la relación es N:M:1. La tabla lleva las tres claves ajenas, pero la clave primaria es solo <strong>la de los otros dos</strong>:</p>
+<p></p><div class="esquema">
+<p><b>PARTICIPA</b>(<u><span class="fk">id_pro → JUGADOR_PRO</span></u>, <u><span class="fk">id_torneo → TORNEO</span></u>, <span class="fk">id_equipo → EQUIPO</span> NOT NULL, dorsal)</p>
+</div><p></p>
+<p>Si pusiéramos las tres en la clave, la base de datos aceptaría que un jugador estuviera en el mismo torneo con dos equipos, que es justo lo que prohíbe el enunciado.</p>
+</details>
+<h3 id="ejercicio-7">Ejercicio 7 · Reflexiva 1:N<a class="headerlink" href="#ejercicio-7" title="Permanent link">¶</a></h3>
+<p>Un personaje veterano puede ser <strong>mentor</strong> de varios personajes novatos; cada novato tiene como mucho un mentor. Interesa la fecha en la que empezó la mentoría.</p>
+<figure class="diagrama">
+<svg class="er" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 240" width="560" role="img" aria-label="Ejercicio 7: PERSONAJE es mentor de PERSONAJE"><title>Ejercicio 7: PERSONAJE es mentor de PERSONAJE</title><style>.er text{font-family:Carlito, Calibri, 'Segoe UI', Arial, sans-serif;fill:var(--er-ink,#1E2B37);font-size:14px} .er .t-att{font-size:13px} .er .t-ent{font-weight:700;letter-spacing:.02em} .er .t-rel{font-weight:700;font-size:12.5px} .er .t-card{fill:var(--er-card,#027885);font-weight:700;font-size:12px} .er .t-type{fill:var(--er-teal,#0396A6);font-weight:700;font-size:12px} .er .t-role{fill:var(--er-muted,#5F7080);font-style:italic;font-size:12px} .er .t-note{fill:var(--er-muted,#5F7080);font-size:12px;font-style:italic} .er .t-cap{fill:var(--er-muted,#5F7080);font-size:12px} .er .t-isa{font-weight:700;font-size:11px} .er .t-tab{fill:#FFFFFF;font-weight:700;font-size:13px} .er .t-col{font-size:12.5px} .er .t-pk{font-weight:700} .er .t-fk{fill:var(--er-card,#027885);font-style:italic} .er .ent{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:2} .er .rel{fill:var(--er-rel-bg,#E3F4F6);stroke:var(--er-teal,#0396A6);stroke-width:2} .er .att{fill:var(--er-att-bg,#FFFFFF);stroke:var(--er-muted,#5F7080);stroke-width:1.4} .er .isa{fill:var(--er-isa-bg,#E3F7F2);stroke:var(--er-mint,#1ABC9C);stroke-width:2} .er .ln{stroke:var(--er-muted,#5F7080);stroke-width:1.5;fill:none} .er .ul{stroke:var(--er-ink,#1E2B37);stroke-width:1.2} .er .dash{stroke-dasharray:5 3} .er .agg{fill:none;stroke:var(--er-teal,#0396A6);stroke-width:1.8;stroke-dasharray:7 4} .er .new{stroke:var(--er-mint,#1ABC9C)!important;stroke-width:3!important} .er .tab{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .tabh{fill:var(--er-tab-head,#1E2B37);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .fkln{stroke:var(--er-teal,#0396A6);stroke-width:1.6;fill:none} .er .fkhead{fill:var(--er-teal,#0396A6)} .er .panel{fill:var(--er-panel,#F4F6F7);stroke:none}</style><style class="darkreader darkreader--sync" media="screen"></style><path class="ln" d="M130,128 L130,50 L380,50 L380,120"></path><path class="ln" d="M189,150 L318,150"></path><path class="ln" d="M399.5,129.4 L456.4,69.4"></path><rect class="ent" x="71" y="128" width="118" height="44" rx="2"></rect><text class="t-ent" x="130" y="155" text-anchor="middle">PERSONAJE</text><polygon class="rel" points="380,120 442,150 380,180 318,150"></polygon><text class="t-rel" x="380" y="154.5" text-anchor="middle">es_mentor_de</text><ellipse class="att" cx="470" cy="55" rx="46.8" ry="15"></ellipse><text class="t-att" x="470" y="59.5" text-anchor="middle">fecha_inicio</text><text class="t-type" x="380" y="195" text-anchor="middle">1:N</text><text class="t-card" x="100" y="105" text-anchor="middle">(0,1)</text><text class="t-card" x="240" y="140" text-anchor="middle">(0,N)</text><text class="t-role" x="410" y="85" text-anchor="middle">mentor</text><text class="t-role" x="270" y="170" text-anchor="middle">aprendiz</text></svg>
+
+</figure>
+
+<details class="success">
+<summary>Solución</summary>
+<p>Es una 1:N sobre la misma tabla: junto a la pata <em>mentor</em> está <code>(0,1)</code> (cada aprendiz tiene como mucho un mentor) y junto a la pata <em>aprendiz</em>, <code>(0,N)</code> (cada mentor, muchos aprendices). La clave se propaga del papel 1 (mentor) al papel N (aprendiz): cada personaje guarda la referencia a <strong>su</strong> mentor, que admite nulos porque el mínimo es 0. El atributo de la relación se propaga con ella.</p>
+<p></p><div class="esquema">
+<p><b>PERSONAJE</b>(<u>id_personaje</u>, ..., <span class="fk">id_mentor → PERSONAJE</span> NULL, fecha_inicio_mentoria NULL)</p>
+</div><p></p>
+<p>Restricciones a documentar: un personaje no puede ser su propio mentor (<code>CHECK (id_mentor &lt;&gt; id_personaje)</code>), y no debería haber ciclos (A mentor de B y B mentor de A), que ya no se puede comprobar con un <code>CHECK</code>.</p>
+</details>
+<h3 id="ejercicio-8">Ejercicio 8 · Caso integrador: speedrun<a class="headerlink" href="#ejercicio-8" title="Permanent link">¶</a></h3>
+<p>Una web de <em>speedrun</em> registra marcas. De cada <strong>juego</strong> se guarda identificador y título. Cada juego tiene varias <strong>categorías</strong> («Any%», «100%», «Glitchless»...) cuyo nombre solo es único dentro del juego. De cada <strong>corredor</strong> se guarda identificador y alias. Un corredor registra muchas marcas en una categoría (puede mejorar su tiempo varias veces el mismo día); de cada marca se guarda un identificador, el tiempo y la fecha.</p>
+<p>Diseña el diagrama E/R y obtén el esquema relacional.</p>
+<details class="success">
+<summary>Solución</summary>
+<p></p><figure class="diagrama">
+<svg class="er" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 370" width="780" role="img" aria-label="Ejercicio 8: comunidad de speedrun"><title>Ejercicio 8: comunidad de speedrun</title><style>.er text{font-family:Carlito, Calibri, 'Segoe UI', Arial, sans-serif;fill:var(--er-ink,#1E2B37);font-size:14px} .er .t-att{font-size:13px} .er .t-ent{font-weight:700;letter-spacing:.02em} .er .t-rel{font-weight:700;font-size:12.5px} .er .t-card{fill:var(--er-card,#027885);font-weight:700;font-size:12px} .er .t-type{fill:var(--er-teal,#0396A6);font-weight:700;font-size:12px} .er .t-role{fill:var(--er-muted,#5F7080);font-style:italic;font-size:12px} .er .t-note{fill:var(--er-muted,#5F7080);font-size:12px;font-style:italic} .er .t-cap{fill:var(--er-muted,#5F7080);font-size:12px} .er .t-isa{font-weight:700;font-size:11px} .er .t-tab{fill:#FFFFFF;font-weight:700;font-size:13px} .er .t-col{font-size:12.5px} .er .t-pk{font-weight:700} .er .t-fk{fill:var(--er-card,#027885);font-style:italic} .er .ent{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:2} .er .rel{fill:var(--er-rel-bg,#E3F4F6);stroke:var(--er-teal,#0396A6);stroke-width:2} .er .att{fill:var(--er-att-bg,#FFFFFF);stroke:var(--er-muted,#5F7080);stroke-width:1.4} .er .isa{fill:var(--er-isa-bg,#E3F7F2);stroke:var(--er-mint,#1ABC9C);stroke-width:2} .er .ln{stroke:var(--er-muted,#5F7080);stroke-width:1.5;fill:none} .er .ul{stroke:var(--er-ink,#1E2B37);stroke-width:1.2} .er .dash{stroke-dasharray:5 3} .er .agg{fill:none;stroke:var(--er-teal,#0396A6);stroke-width:1.8;stroke-dasharray:7 4} .er .new{stroke:var(--er-mint,#1ABC9C)!important;stroke-width:3!important} .er .tab{fill:var(--er-ent-bg,#FFFFFF);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .tabh{fill:var(--er-tab-head,#1E2B37);stroke:var(--er-ink,#1E2B37);stroke-width:1.6} .er .fkln{stroke:var(--er-teal,#0396A6);stroke-width:1.6;fill:none} .er .fkhead{fill:var(--er-teal,#0396A6)} .er .panel{fill:var(--er-panel,#F4F6F7);stroke:none}</style><style class="darkreader darkreader--sync" media="screen"></style><path class="ln" d="M169,51.3 L246.4,39.9"></path><path class="ln" d="M169,70.4 L252.5,85.1"></path><path class="ln" d="M110,82 L110,134"></path><path class="ln" d="M110,253 L110,206"></path><path class="ln" d="M110,307 L110,330"></path><path class="ln" d="M174,280 L374.1,280"></path><path class="ln" d="M621,280 L485.9,280"></path><path class="ln" d="M409.8,260.8 L344.6,198.9"></path><path class="ln" d="M435.2,252.8 L447.2,189.9"></path><path class="ln" d="M455.2,263.5 L542,206.8"></path><path class="ln" d="M661.1,302 L632.4,335.5"></path><path class="ln" d="M697.3,302 L724.3,336.3"></path><rect class="ent" x="51" y="38" width="118" height="44" rx="2"></rect><text class="t-ent" x="110" y="65" text-anchor="middle">JUEGO</text><ellipse class="att" cx="280" cy="35" rx="35.6" ry="15"></ellipse><text class="t-att" x="280" y="39.5" text-anchor="middle">id_juego</text><line class="ul" x1="257.4" y1="42" x2="302.6" y2="42"></line><ellipse class="att" cx="280" cy="90" rx="29.1" ry="15"></ellipse><text class="t-att" x="280" y="94.5" text-anchor="middle">titulo</text><polygon class="rel" points="110,134 166,170 110,206 54,170"></polygon><polygon class="rel" points="110,140 158,170 110,200 62,170"></polygon><text class="t-rel" x="110" y="174.5" text-anchor="middle">tiene</text><rect class="ent" x="46" y="253" width="128" height="54" rx="3"></rect><rect class="ent" x="51" y="258" width="118" height="44" rx="2"></rect><text class="t-ent" x="110" y="285" text-anchor="middle">CATEGORIA</text><ellipse class="att" cx="110" cy="345" rx="46.9" ry="15"></ellipse><text class="t-att" x="110" y="349.5" text-anchor="middle">nombre_cat</text><line class="ul dash" x1="76.1" y1="352" x2="143.9" y2="352"></line><polygon class="rel" points="430,250 485.9,280 430,310 374.1,280"></polygon><text class="t-rel" x="430" y="284.5" text-anchor="middle">registra</text><rect class="ent" x="621" y="258" width="118" height="44" rx="2"></rect><text class="t-ent" x="680" y="285" text-anchor="middle">CORREDOR</text><ellipse class="att" cx="330" cy="185" rx="39.1" ry="15"></ellipse><text class="t-att" x="330" y="189.5" text-anchor="middle">id_marca</text><line class="ul" x1="303.9" y1="192" x2="356.1" y2="192"></line><ellipse class="att" cx="450" cy="175" rx="32.6" ry="15"></ellipse><text class="t-att" x="450" y="179.5" text-anchor="middle">tiempo</text><ellipse class="att" cx="560" cy="195" rx="28.9" ry="15"></ellipse><text class="t-att" x="560" y="199.5" text-anchor="middle">fecha</text><ellipse class="att" cx="620" cy="350" rx="46.6" ry="15"></ellipse><text class="t-att" x="620" y="354.5" text-anchor="middle">id_corredor</text><line class="ul" x1="586.4" y1="357" x2="653.6" y2="357"></line><ellipse class="att" cx="735" cy="350" rx="25.9" ry="15"></ellipse><text class="t-att" x="735" y="354.5" text-anchor="middle">alias</text><text class="t-type" x="49" y="162" text-anchor="end">1:N · ID</text><text class="t-card" x="98" y="102" text-anchor="middle">(1,1)</text><text class="t-card" x="122" y="241" text-anchor="middle">(0,N)</text><text class="t-type" x="430" y="325" text-anchor="middle">N:M</text><text class="t-card" x="196" y="272" text-anchor="middle">(0,N)</text><text class="t-card" x="599" y="296" text-anchor="middle">(0,N)</text></svg><p></p>
+</figure>
+<p>CATEGORIA es débil por identificación (Any% de Hollow Knight no es Any% de Celeste). Como un corredor puede repetir marca en la misma categoría y el mismo día, ni <code>(corredor, categoría)</code> ni <code>(corredor, categoría, fecha)</code> identifican una marca: por eso el enunciado da un <code>id_marca</code>, que será la clave primaria.</p>
+<p></p><div class="esquema">
+<p><b>JUEGO</b>(<u>id_juego</u>, titulo)</p>
+<p><b>CATEGORIA</b>(<u><span class="fk">id_juego → JUEGO</span></u>, <u>nombre_cat</u>) <span class="nota">— ON DELETE CASCADE</span></p>
+<p><b>CORREDOR</b>(<u>id_corredor</u>, alias UNIQUE)</p>
+<p><b>MARCA</b>(<u>id_marca</u>, tiempo, fecha, <span class="fk">id_corredor → CORREDOR</span> NOT NULL, id_juego NOT NULL, nombre_cat NOT NULL)</p>
+<p class="nota">(id_juego, nombre_cat) → CATEGORIA</p>
+</div><p></p>
+<p>Fíjate en que la clave ajena hacia CATEGORIA es <strong>compuesta</strong>: lleva las dos columnas de su clave primaria.</p>
+</details>
+<h2 id="bloque-2-normalizacion">Bloque 2 · Normalización<a class="headerlink" href="#bloque-2-normalizacion" title="Permanent link">¶</a></h2>
+<h3 id="ejercicio-9">Ejercicio 9 · Dependencias y forma normal<a class="headerlink" href="#ejercicio-9" title="Permanent link">¶</a></h3>
+<p>Dada la tabla</p>
+<div class="esquema">
+<p><b>INSCRIPCION</b>(id_torneo, nombre_torneo, fecha_torneo, id_equipo, nombre_equipo, capitan, email_capitan, cuota_pagada)</p>
+</div>
+
+<p>y las reglas: cada torneo tiene un nombre y una fecha; cada equipo tiene un nombre y un único capitán; cada capitán tiene un único correo; la cuota pagada depende del equipo y del torneo.</p>
+<ol>
+<li>Escribe las dependencias funcionales.</li>
+<li>Indica la clave primaria.</li>
+<li>¿En qué forma normal está? Normalízala hasta 3FN.</li>
+</ol>
+<details class="success">
+<summary>Solución</summary>
+<p><strong>1. Dependencias funcionales</strong></p>
+<ul>
+<li><code>id_torneo → nombre_torneo, fecha_torneo</code></li>
+<li><code>id_equipo → nombre_equipo, capitan</code></li>
+<li><code>capitan → email_capitan</code></li>
+<li><code>(id_torneo, id_equipo) → cuota_pagada</code></li>
+</ul>
+<p><strong>2. Clave primaria:</strong> <code>(id_torneo, id_equipo)</code>.</p>
+<p><strong>3. Forma normal:</strong> está en <strong>1FN</strong> (valores atómicos), pero <strong>no en 2FN</strong>: <code>nombre_torneo</code> y <code>fecha_torneo</code> dependen solo de <code>id_torneo</code>, y los datos del equipo solo de <code>id_equipo</code> (dependencias parciales).</p>
+<p><strong>2FN:</strong></p>
+<p></p><div class="esquema">
+<p><b>TORNEO</b>(<u>id_torneo</u>, nombre_torneo, fecha_torneo)</p>
+<p><b>EQUIPO</b>(<u>id_equipo</u>, nombre_equipo, capitan, email_capitan)</p>
+<p><b>INSCRIPCION</b>(<u><span class="fk">id_torneo → TORNEO</span></u>, <u><span class="fk">id_equipo → EQUIPO</span></u>, cuota_pagada)</p>
+</div><p></p>
+<p><strong>3FN:</strong> en EQUIPO hay una dependencia transitiva, <code>id_equipo → capitan → email_capitan</code>:</p>
+<p></p><div class="esquema">
+<p><b>CAPITAN</b>(<u>capitan</u>, email_capitan)</p>
+<p><b>EQUIPO</b>(<u>id_equipo</u>, nombre_equipo, <span class="fk">capitan → CAPITAN</span>)</p>
+</div><p></p>
+<p>TORNEO e INSCRIPCION ya estaban en 3FN.</p>
+</details>
+<h3 id="ejercicio-10">Ejercicio 10 · Normalizar un acta de partida<a class="headerlink" href="#ejercicio-10" title="Permanent link">¶</a></h3>
+<p>El árbitro de un torneo rellena este acta por cada partida:</p>
+<div class="datos">
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+<thead>
+<tr>
+<th>id_partida</th>
+<th>fecha</th>
+<th>id_torneo</th>
+<th>nombre_torneo</th>
+<th>sede</th>
+<th>ciudad_sede</th>
+<th>jugadores (id, alias, equipo, kills, muertes)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P-17</td>
+<td>2026-10-03</td>
+<td>T-2</td>
+<td>Rioja Masters</td>
+<td>S-1</td>
+<td>Logroño</td>
+<td>(7, Ruedas, Los Tempranillos, 21, 8); (9, Gárgola, Los Tempranillos, 15, 12); (12, Nube, Riojaforja, 11, 19)</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<p>Reglas: cada partida pertenece a un torneo; cada torneo se juega en una sede; cada sede está en una ciudad; cada jugador pertenece a un equipo; las kills y muertes son de un jugador en una partida. Normaliza hasta 3FN.</p>
+<details class="success">
+<summary>Solución</summary>
+<p><strong>1FN.</strong> Se elimina el grupo repetitivo (una fila por jugador y partida). Clave: <code>(id_partida, id_jugador)</code>.</p>
+<p></p><div class="esquema">
+<p><b>ACTA</b>(<u>id_partida</u>, <u>id_jugador</u>, fecha, id_torneo, nombre_torneo, sede, ciudad_sede, alias, equipo, kills, muertes)</p>
+</div><p></p>
+<p><strong>Dependencias:</strong> <code>id_partida → fecha, id_torneo</code>; <code>id_torneo → nombre_torneo, sede</code>; <code>sede → ciudad_sede</code>; <code>id_jugador → alias, equipo</code>; <code>(id_partida, id_jugador) → kills, muertes</code>.</p>
+<p><strong>2FN.</strong> Se separan las dependencias parciales:</p>
+<p></p><div class="esquema">
+<p><b>PARTIDA</b>(<u>id_partida</u>, fecha, id_torneo, nombre_torneo, sede, ciudad_sede)</p>
+<p><b>JUGADOR</b>(<u>id_jugador</u>, alias, equipo)</p>
+<p><b>ESTADISTICA</b>(<u><span class="fk">id_partida → PARTIDA</span></u>, <u><span class="fk">id_jugador → JUGADOR</span></u>, kills, muertes)</p>
+</div><p></p>
+<p><strong>3FN.</strong> En PARTIDA hay dos transitivas encadenadas: <code>id_partida → id_torneo → sede → ciudad_sede</code>.</p>
+<p></p><div class="esquema">
+<p><b>SEDE</b>(<u>sede</u>, ciudad_sede)</p>
+<p><b>TORNEO</b>(<u>id_torneo</u>, nombre_torneo, <span class="fk">sede → SEDE</span>)</p>
+<p><b>PARTIDA</b>(<u>id_partida</u>, fecha, <span class="fk">id_torneo → TORNEO</span>)</p>
+<p><b>JUGADOR</b>(<u>id_jugador</u>, alias, equipo)</p>
+<p><b>ESTADISTICA</b>(<u><span class="fk">id_partida → PARTIDA</span></u>, <u><span class="fk">id_jugador → JUGADOR</span></u>, kills, muertes)</p>
+</div><p></p>
+<p>Si del equipo interesaran más datos (patrocinador, entrenador...), <code>equipo</code> pasaría a ser clave ajena hacia una tabla EQUIPO. Con solo el nombre, se puede dejar como atributo.</p>
+</details>
+<h3 id="ejercicio-11">Ejercicio 11 · Forma normal de Boyce-Codd<a class="headerlink" href="#ejercicio-11" title="Permanent link">¶</a></h3>
+<p>En un torneo en línea, cada <strong>servidor</strong> se asigna a un único torneo, y cada jugador juega cada torneo en un único servidor. Un torneo usa varios servidores.</p>
+<div class="esquema">
+<p><b>ASIGNACION</b>(id_jugador, id_torneo, servidor)</p>
+</div>
+
+<p>¿Está en 3FN? ¿Y en FNBC? Si no lo está, descomponla.</p>
+<details class="success">
+<summary>Solución</summary>
+<p><strong>Dependencias:</strong> <code>(id_jugador, id_torneo) → servidor</code> y <code>servidor → id_torneo</code>.</p>
+<p><strong>Claves candidatas:</strong> <code>(id_jugador, id_torneo)</code> y <code>(id_jugador, servidor)</code>.</p>
+<ul>
+<li><strong>3FN: sí.</strong> La única dependencia cuyo determinante no es clave es <code>servidor → id_torneo</code>, pero <code>id_torneo</code> forma parte de una clave candidata.</li>
+<li><strong>FNBC: no.</strong> <code>servidor</code> es un determinante y no es clave candidata.</li>
+</ul>
+<p><strong>Descomposición:</strong></p>
+<p></p><div class="esquema">
+<p><b>SERVIDOR</b>(<u>servidor</u>, id_torneo)</p>
+<p><b>ASIGNACION</b>(<u>id_jugador</u>, <u><span class="fk">servidor → SERVIDOR</span></u>)</p>
+</div><p></p>
+<p>Se pierde la dependencia <code>(id_jugador, id_torneo) → servidor</code>: nada impide ahora asignar a un jugador dos servidores del mismo torneo. Hay que documentarlo como restricción no representable (es el mismo caso que el de los entrenadores del <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/07-normalizacion.html#76-forma-normal-de-boyce-codd-fnbc">apartado 7.6</a>).</p>
+</details>
+<h2 id="bloque-3-restricciones-no-representables">Bloque 3 · Restricciones no representables<a class="headerlink" href="#bloque-3-restricciones-no-representables" title="Permanent link">¶</a></h2>
+<h3 id="ejercicio-12">Ejercicio 12 · Analizar y documentar<a class="headerlink" href="#ejercicio-12" title="Permanent link">¶</a></h3>
+<p>Para la liga de eSports de los ejercicios 1 y 6 se han obtenido estas tablas:</p>
+<div class="esquema">
+<p><b>EQUIPO</b>(<u>id_equipo</u>, nombre, max_jugadores)</p>
+<p><b>JUGADOR_PRO</b>(<u>id_pro</u>, alias, fecha_nacimiento, <span class="fk">id_equipo → EQUIPO</span> NULL, fecha_fichaje NULL)</p>
+<p><b>TORNEO</b>(<u>id_torneo</u>, nombre, fecha_inicio, fecha_fin, edad_minima)</p>
+<p><b>PARTICIPA</b>(<u><span class="fk">id_pro → JUGADOR_PRO</span></u>, <u><span class="fk">id_torneo → TORNEO</span></u>, <span class="fk">id_equipo → EQUIPO</span> NOT NULL, dorsal)</p>
+</div>
+
+<p>Y estas reglas del cliente:</p>
+<ol>
+<li>Un torneo no puede terminar antes de empezar.</li>
+<li>El dorsal va del 1 al 99.</li>
+<li>Un equipo no puede tener más jugadores que su <code>max_jugadores</code>.</li>
+<li>Para participar en un torneo hay que tener, el día de inicio, al menos la <code>edad_minima</code> del torneo.</li>
+<li>En un torneo, dos jugadores del mismo equipo no pueden llevar el mismo dorsal.</li>
+<li>Todo torneo tiene al menos dos equipos participantes.</li>
+</ol>
+<p>Clasifica cada regla e indica cómo se implementaría.</p>
+<details class="success">
+<summary>Solución</summary>
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+<thead>
+<tr>
+<th>Regla</th>
+<th>Tipo</th>
+<th>¿Qué mira?</th>
+<th>Implementación</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Entre columnas de la misma fila</td>
+<td>TORNEO</td>
+<td><code>CHECK (fecha_fin &gt;= fecha_inicio)</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td>De dominio</td>
+<td>PARTICIPA</td>
+<td><code>CHECK (dorsal BETWEEN 1 AND 99)</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td>De agregado (cuenta filas)</td>
+<td>JUGADOR_PRO, EQUIPO</td>
+<td>Disparador (UD 6)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Entre tablas</td>
+<td>PARTICIPA, JUGADOR_PRO, TORNEO</td>
+<td>Disparador (UD 6)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>De unicidad compuesta</td>
+<td>PARTICIPA</td>
+<td><code>UNIQUE (id_torneo, id_equipo, dorsal)</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Mínimo en una relación</td>
+<td>PARTICIPA, TORNEO</td>
+<td>Procedimiento de alta o comprobación antes de cerrar la inscripción (UD 6)</td>
+</tr>
+</tbody>
+</table></div></div>
+<p>La regla 5 es la trampa del ejercicio: parece no representable, pero se resuelve con una <strong>clave alternativa compuesta</strong>. Merece la pena comprobar siempre si una regla se puede expresar con <code>UNIQUE</code> o <code>CHECK</code> antes de mandarla a un disparador.</p>
+<p>Ficha de la regla 4:</p>
+<ul>
+<li><strong>Código:</strong> R-04 · <strong>Nombre:</strong> Edad mínima del torneo.</li>
+<li><strong>Descripción:</strong> la edad del jugador, calculada a la fecha de inicio del torneo, debe ser mayor o igual que <code>edad_minima</code>.</li>
+<li><strong>Tablas:</strong> PARTICIPA (al insertar o modificar), JUGADOR_PRO y TORNEO (se consultan).</li>
+<li><strong>Acción:</strong> rechazar la inscripción.</li>
+<li><strong>Implementación prevista:</strong> disparador <code>BEFORE INSERT OR UPDATE</code> sobre PARTICIPA.</li>
+</ul>
+</details>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="" style="top: 78px;">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><circle cx="12" cy="12" r="10"></circle><path d="m16 12-4-4-4 4M12 16V8"></path></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie">
+        
+          
+          <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/09-data-modeler.html" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 9. Oracle SQL Data Modeler">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><path d="m12 19-7-7 7-7M19 12H5"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                9. Oracle SQL Data Modeler
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/autoevaluacion.html" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Autoevaluación">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Autoevaluación
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      IES Comercio · Logroño (La Rioja) · Curso 2026/2027
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      
+      
+        
+        
+      <script id="__config" type="application/json">{"annotate":null,"base":".","features":["content.code.annotate","content.code.copy","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight","toc.follow"],"redirect":null,"search":"./assets/javascripts/workers/search.7d14d953.min.js","tags":null,"translations":{"clipboard.copied":"Copiado al portapapeles","clipboard.copy":"Copiar al portapapeles","search.result.more.one":"1 más en esta página","search.result.more.other":"# más en esta página","search.result.none":"No se encontraron documentos","search.result.one":"1 documento encontrado","search.result.other":"# documentos encontrados","search.result.placeholder":"Teclee para comenzar búsqueda","search.result.term.missing":"Falta","select.version":"Seleccionar versión"},"version":null}</script>
+    
+    
+      <script src="ejercicios_files/bundle.c04ba553.min_EgHJ.js"></script><div style="position: fixed; height: 100%; top: 0px; z-index: 4;"></div>
+      
+        <script src="ejercicios_files/mermaid.min_EgHJ.js"></script>
+      
+    
+  
+</body></html>

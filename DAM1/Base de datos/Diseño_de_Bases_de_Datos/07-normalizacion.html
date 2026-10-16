@@ -1,0 +1,1961 @@
+<!DOCTYPE html>
+<html lang="es" class="js-focus-visible js" data-darkreader-mode="dynamic" data-darkreader-scheme="dark" data-platform="Win32" data-js-focus-visible=""><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">@layer {
+html {
+    background-color: var(--darkreader-background-ffffff, #181a1b) !important;
+}
+html {
+    color-scheme: dark !important;
+}
+iframe {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: var(--darkreader-background-ffffff, #181a1b);
+}
+html, body {
+    border-color: var(--darkreader-border-4c4c4c, #736b5e);
+    color: var(--darkreader-text-000000, #e8e6e3);
+}
+a {
+    color: var(--darkreader-text-0040ff, #3391ff);
+}
+table {
+    border-color: var(--darkreader-border-808080, #545b5e);
+}
+mark {
+    color: var(--darkreader-text-000000, #e8e6e3);
+}
+::placeholder {
+    color: var(--darkreader-text-a9a9a9, #b2aba1);
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: var(--darkreader-background-faffbd, #404400) !important;
+    color: var(--darkreader-text-000000, #e8e6e3) !important;
+}
+::selection {
+    background-color: var(--darkreader-background-0060d4, #004daa) !important;
+    color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+}
+::-moz-selection {
+    background-color: var(--darkreader-background-0060d4, #004daa) !important;
+    color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+}
+}</style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">c-wiz div > svg > circle, .jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula, a[data-testid="headerMediumLogo"]>svg, .d2l-navigation-link-image-container, .d2l-iframe-loading-container, div.mc-ip-hide[style*="background: rgb(255, 255, 255) !important"], [style*="color: rgb(0, 0, 1) !important;"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}
+[data-darkreader-inline-bg] {
+  background: var(--darkreader-inline-bg) !important;
+}
+[data-darkreader-inline-border-short] {
+  border: var(--darkreader-inline-border-short) !important;
+}
+[data-darkreader-inline-border-bottom-short] {
+  border-bottom: var(--darkreader-inline-border-bottom-short) !important;
+}
+[data-darkreader-inline-border-left-short] {
+  border-left: var(--darkreader-inline-border-left-short) !important;
+}
+[data-darkreader-inline-border-right-short] {
+  border-right: var(--darkreader-inline-border-right-short) !important;
+}
+[data-darkreader-inline-border-top-short] {
+  border-top: var(--darkreader-inline-border-top-short) !important;
+}
+[data-darkreader-inline-invert] {
+    filter: invert(100%) hue-rotate(180deg);
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: var(--darkreader-background-ffffff, #181a1b);
+   --darkreader-neutral-text: var(--darkreader-text-000000, #e8e6e3);
+   --darkreader-selection-background: var(--darkreader-background-0060d4, #004daa);
+   --darkreader-selection-text: var(--darkreader-text-ffffff, #e8e6e3);
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Apuntes de la UD 2 (RA 6) del módulo 0484 Bases de Datos (CFGS DAM/DAW)">
+      
+      
+        <meta name="author" content="Alejandro Martínez Cuesta">
+      
+      
+      
+        <link rel="prev" href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/06-integridad.html">
+      
+      
+        <link rel="next" href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/08-restricciones.html">
+      
+      
+        
+      
+      
+      <link rel="icon" href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/assets/favicon.svg">
+      <meta name="generator" content="zensical-0.0.64">
+    
+    
+      
+        <title>7. Normalización - UD 2 · Diseño de Bases de Datos</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="07-normalizacion_files/main.40d3fdbb.min_30Ap.css"><style class="darkreader darkreader--sync" media="screen"></style>
+      
+        
+          
+        
+        <link rel="stylesheet" href="07-normalizacion_files/palette.812a03bb.min_30Ap.css"><style class="darkreader darkreader--sync" media="screen"></style>
+      
+      
+
+
+    
+    
+      
+        <script src="07-normalizacion_files/shim_30Ap.js" type="text/javascript"></script><meta name="darkreader" content="01c4d101cc77439ea533c09867741ee2"><style class="darkreader darkreader--override" media="screen">c-wiz div {
+    --action-items-action-item-background-color: var(--darkreader-neutral-background) !important;
+}
+.jfk-bubble.gtx-bubble {
+    background-color: white !important;
+}
+.vimvixen-hint {
+    background-color: var(--darkreader-background-ffd76e, #684b00) !important;
+    border-color: var(--darkreader-background-c59d00, #9e7e00) !important;
+    color: var(--darkreader-text-302505, #d7d4cf) !important;
+}
+#vimvixen-console-frame {
+    color-scheme: light !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: var(--darkreader-background-add8e6, #1b4958) !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: var(--darkreader-background-cfecf5, #0f3a47) !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: var(--darkreader-background-f5f5f5, #1e2021) !important;
+}
+.tou-uknfeu {
+    background-color: var(--darkreader-background-faedda, #432c09) !important;
+}
+.tou-6i3zyv {
+    background-color: var(--darkreader-background-85c3d8, #245d70) !important;
+}
+div.mermaid-viewer-control-panel .btn {
+    background-color: var(--darkreader-neutral-background);
+    fill: var(--darkreader-neutral-text);
+}
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxEven {
+    fill: var(--darkreader-selection-background);
+    fill-opacity: 0.8 !important;
+}
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g g.nodes rect,
+svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+svg line.messageLine0,
+svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+mitid-authenticators-code-app > .code-app-container {
+    background-color: white !important;
+    padding-top: 1rem;
+}
+iframe#unpaywall[src$="unpaywall.html"] {
+    color-scheme: light !important;
+}
+select {
+    --darkreader-bg--form-control-background-color: rgba(22, 22, 22, 0) !important;
+}
+body#tumblr {
+    --darkreader-bg--secondary-accent: 31, 32, 34 !important;
+    --darkreader-bg--white: 23, 23, 23 !important;
+    --darkreader-text--black: 228, 224, 218 !important;
+}
+:host {
+    --d2l-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-button-icon-background-color-hover: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-color-ferrite: var(--darkreader-neutral-text) !important;
+    --d2l-color-sylvite: var(--darkreader-bg--d2l-color-sylvite) !important;
+    --d2l-dropdown-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-dropdown-border-color: var(--darkreader-border--d2l-color-mica) !important;
+    --d2l-input-backgroud-color: var(--darkreader-neutral-background) !important;
+    --d2l-menu-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-tooltip-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-tooltip-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+:host([_floating]) .d2l-floating-buttons-container {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-top-color: var(--darkreader-border--d2l-color-mica) !important;
+    opacity: 0.88 !important;
+}
+d2l-card {
+    background: var(--darkreader-neutral-background) !important;
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+d2l-dropdown-content > div,
+d2l-menu-item {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-radius: 10px !important;
+}
+d2l-empty-state-simple {
+    border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-button-filter > ul > li > a.vui-button {
+    border-color: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-label-text:has(.d2l-button-subtle-content):hover,
+.d2l-label-text:has(.d2l-button-subtle-content):focus,
+.d2l-label-text:has(.d2l-button-subtle-content):active {
+    background-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-navigation-centerer {
+    color: inherit !important;
+}
+.d2l-tabs-layout {
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+.d2l-input,
+.d2l-calendar-date,
+.d2l-htmleditor-container {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-collapsible-panel {
+    border: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+    border-radius: 0.4rem !important;
+}
+.d2l-collapsible-panel-divider {
+    border-bottom: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-w2d-flex {
+    border-bottom: 2px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-collapsible-panel scrolled,
+.d2l-collapsible-panel-header,
+.d2l-w2d-collection-fixed {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-loading-spinner-bg {
+    fill: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-loading-spinner-bg-stroke {
+    stroke: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-loading-spinner-wrapper svg path,
+.d2l-loading-spinner-wrapper svg circle {
+    fill: var(--darkreader-neutral-background) !important;
+}
+.d2l-twopanelselector-side.d2l-twopanelselector-side-sep {
+    background: var(--darkreader-bg--d2l-color-mica) !important;
+}
+.d2l-le-TreeAccordionItem-anchor::before {
+    background: var(--darkreader-bg--d2l-color-corundum) !important;
+}
+table[class|="moz-header"] {
+    background: none;
+}
+*[style*="color: rgba(0,0,0,"]:not([style*="color: rgba(0,0,0,0)"]),
+*[style*="color: rgba(0, 0, 0,"]:not([style*="color: rgba(0, 0, 0, 0)"]),
+*[style*="color:#000"]:not(.cell-input > span),
+*[style*="color:black"]:not(.cell-input > span),
+*[style*="color:#282828"]:not(.cell-input > span),
+*[style*="color:#444"]:not(.cell-input > span),
+*[style*="color: #222222"]:not(.cell-input > span) {
+    color: var(--darkreader-neutral-text) !important;
+}
+*[style*="background:#fff"],
+*[style*="background-color:#fff"],
+*[style*="background: #fff"],
+*[style*="background: rgb(255, 255, 255)"] {
+    background: var(--darkreader-neutral-background) !important;
+}
+*[bgcolor="#F5F5F5"],
+*[style*="background-color: #F5F5F5"] {
+    background: var(--darkreader-background-f5f5f5, #1e2021) !important;
+}
+*[style*="background: #e6e6e6"] {
+    background: var(--darkreader-background-e6e6e6, #26292b) !important;
+}
+body[style*="background: rgb(255, 255, 255) !important"] *:not(a),
+.body[style*="background-color: rgb(254, 254, 254) !important"] *:not(a) {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+div[style*="www.gstatic.com/android/"] {
+    background: none !important;
+}
+*[style*="background:#f9f9f9"] {
+    background: var(--darkreader-background-f9f9f9, #1b1e1f) !important;
+}
+body.mediawiki.skin-vector #mw-page-base {
+    background-image: none !important;
+}
+.overflow-hidden .spinning-bg,
+.overflow-hidden .solid-bg {
+    background: transparent !important;
+}
+*[style*="color: rgb(0,0,0) !imoprtant"][style*="--darkreader-inline-color"],
+*[style*="color: rgb(0, 0, 0) !important"][style*="--darkreader-inline-color"] {
+    -webkit-text-fill-color: var(--darkreader-inline-color) !important;
+}
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }</style>
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="07-normalizacion_files/extra_30Ap.css"><style class="darkreader darkreader--sync" media="screen"></style>
+    
+    <script>__md_scope=new URL(".",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  <meta name="theme-color" content="#18222c"><meta name="color-scheme" content="dark"></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom" data-md-color-media="(prefers-color-scheme: dark)">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navegación"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#normalizacion" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/index.html" title="UD 2 · Diseño de Bases de Datos" class="md-header__button md-logo" aria-label="UD 2 · Diseño de Bases de Datos" data-md-component="logo">
+      
+  <img src="07-normalizacion_files/logo-ies-blanco_30Ap.png" alt="UD 2 · Diseño de Bases de Datos">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navegación">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><path d="M4 5h16M4 12h16M4 19h16"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UD 2 · Diseño de Bases de Datos
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              7. Normalización
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom" aria-label="Cambiar a modo oscuro" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo oscuro" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom" aria-label="Cambiar a modo claro" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Cambiar a modo claro" for="__palette_0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Buscar">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><path d="m21 21-4.34-4.34"></path><circle cx="11" cy="11" r="8"></circle></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Buscar">
+  <button type="button" class="md-search__button">
+    Buscar
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" style="top: 62px;">
+                <div class="md-sidebar__scrollwrap" style="height: 656px;">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/index.html" title="UD 2 · Diseño de Bases de Datos" class="md-nav__button md-logo" aria-label="UD 2 · Diseño de Bases de Datos" data-md-component="logo">
+      
+  <img src="07-normalizacion_files/logo-ies-blanco_30Ap.png" alt="UD 2 · Diseño de Bases de Datos">
+
+    </a>
+    UD 2 · Diseño de Bases de Datos
+  </label>
+  
+  <ul class="md-nav__list">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Inicio
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/caso-pixelvault.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  El caso PixelVault
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked="checked">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Apartados
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        
+          <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+            <label class="md-nav__title" for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Apartados
+
+            </label>
+            <ul class="md-nav__list">
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/01-proceso-de-diseno.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  1. El proceso de diseño
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/02-modelo-er.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  2. El modelo entidad/relación
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/03-er-ampliado.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  3. Débiles y E/R ampliado
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/04-modelo-relacional.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  4. El modelo relacional
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/05-paso-a-tablas.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  5. Del E/R a las tablas
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/06-integridad.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  6. Reglas de integridad
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  7. Normalización
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/07-normalizacion.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  7. Normalización
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="En esta página">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      En esta página
+    </label>
+    <ul class="md-nav__list" data-md-component="toc">
+      
+        <li class="md-nav__item">
+  <a href="#71-dependencias-funcionales" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.1 Dependencias funcionales
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#72-el-punto-de-partida-el-ticket-de-pixelvault" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.2 El punto de partida: el ticket de PixelVault
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#73-primera-forma-normal-1fn" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.3 Primera forma normal (1FN)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#74-segunda-forma-normal-2fn" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.4 Segunda forma normal (2FN)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#75-tercera-forma-normal-3fn" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.5 Tercera forma normal (3FN)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#76-forma-normal-de-boyce-codd-fnbc" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.6 Forma normal de Boyce-Codd (FNBC)
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.6 Forma normal de Boyce-Codd (FNBC)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-los-entrenadores-de-pixelvault" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejemplo: los entrenadores de PixelVault
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#77-desnormalizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.7 Desnormalización
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#78-procedimiento-paso-a-paso" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.8 Procedimiento paso a paso
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumen" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Resumen
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/08-restricciones.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  8. Restricciones no representables
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/09-data-modeler.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  9. Oracle SQL Data Modeler
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Repaso
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        
+          <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+            <label class="md-nav__title" for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Repaso
+
+            </label>
+            <ul class="md-nav__list">
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/ejercicios.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Ejercicios resueltos
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/autoevaluacion.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Autoevaluación
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/glosario.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Glosario
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" style="top: 62px;">
+                <div class="md-sidebar__scrollwrap" style="height: 656px;">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="En esta página">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      En esta página
+    </label>
+    <ul class="md-nav__list" data-md-component="toc">
+      
+        <li class="md-nav__item">
+  <a href="#71-dependencias-funcionales" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.1 Dependencias funcionales
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#72-el-punto-de-partida-el-ticket-de-pixelvault" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.2 El punto de partida: el ticket de PixelVault
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#73-primera-forma-normal-1fn" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.3 Primera forma normal (1FN)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#74-segunda-forma-normal-2fn" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.4 Segunda forma normal (2FN)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#75-tercera-forma-normal-3fn" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.5 Tercera forma normal (3FN)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#76-forma-normal-de-boyce-codd-fnbc" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.6 Forma normal de Boyce-Codd (FNBC)
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7.6 Forma normal de Boyce-Codd (FNBC)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo-los-entrenadores-de-pixelvault" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Ejemplo: los entrenadores de PixelVault
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#77-desnormalizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.7 Desnormalización
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#78-procedimiento-paso-a-paso" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7.8 Procedimiento paso a paso
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumen" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Resumen
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegación">
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/index.html" class="md-path__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/01-proceso-de-diseno.html" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    Apartados
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<p><span class="kicker">UD 2 · Apartado 7</span></p>
+<h1 id="normalizacion">Normalización<a class="headerlink" href="#normalizacion" title="Permanent link">¶</a></h1>
+<p>En el <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/01-proceso-de-diseno.html#11-por-que-hace-falta-disenar">apartado 1</a> vimos que guardar las ventas de PixelVault en una sola tabla provocaba redundancia y anomalías. La <strong>normalización</strong> es el procedimiento formal para detectar y eliminar esos problemas: se comprueba si cada tabla cumple una serie de condiciones, las <strong>formas normales</strong>, y si no las cumple se <strong>descompone</strong> en tablas más pequeñas sin perder información.</p>
+<p>La normalización sirve para dos cosas:</p>
+<ul>
+<li><strong>Comprobar</strong> que el esquema obtenido del diagrama E/R es correcto.</li>
+<li><strong>Diseñar a partir de documentos existentes</strong> (tickets, facturas, hojas de cálculo) cuando no hay un diagrama E/R previo.</li>
+</ul>
+<h2 id="71-dependencias-funcionales">7.1 Dependencias funcionales <span class="ce">CE 6g</span><a class="headerlink" href="#71-dependencias-funcionales" title="Permanent link">¶</a></h2>
+<p>Todas las formas normales se definen a partir de un concepto: la dependencia funcional.</p>
+<dl>
+<dt>Dependencia funcional (DF)</dt>
+<dd>Se dice que <strong>Y depende funcionalmente de X</strong>, y se escribe <strong>X → Y</strong>, si cada valor de X determina <strong>un único valor</strong> de Y. A X se le llama <strong>determinante</strong>.</dd>
+</dl>
+<p>Ejemplos en PixelVault:</p>
+<ul>
+<li><code>id_juego → titulo</code>: conocido el identificador del juego, su título es uno solo.</li>
+<li><code>nick → email</code>: cada <em>nick</em> tiene un único correo.</li>
+<li><code>titulo → id_juego</code> <strong>no</strong> tiene por qué cumplirse: podría haber dos juegos con el mismo título (dos <em>remakes</em>, por ejemplo).</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Las DF salen de los requisitos, no de los datos</p>
+<p>Que en las filas de ejemplo no se repita ningún título no significa que <code>titulo → id_juego</code>. Las dependencias se deducen de las <strong>reglas del negocio</strong>, no de los datos que haya en un momento dado.</p>
+</div>
+<p>Hay tres tipos de dependencia que vamos a necesitar:</p>
+<dl>
+<dt>Dependencia completa</dt>
+<dd>Y depende de <strong>todo</strong> X y no de una parte. En la línea de un pedido, <code>(num_pedido, id_juego) → precio_pagado</code> es completa: el precio depende del pedido <strong>y</strong> del juego.</dd>
+<dt>Dependencia parcial</dt>
+<dd>Y depende solo de <strong>una parte</strong> de una clave compuesta. <code>(num_pedido, id_juego) → titulo</code> es parcial, porque basta <code>id_juego → titulo</code>.</dd>
+<dt>Dependencia transitiva</dt>
+<dd>Y depende de X <strong>a través</strong> de otro atributo Z que no es clave: X → Z y Z → Y. Por ejemplo, <code>num_pedido → nick</code> y <code>nick → email</code>, luego <code>email</code> depende transitivamente de <code>num_pedido</code>.</dd>
+</dl>
+<h2 id="72-el-punto-de-partida-el-ticket-de-pixelvault">7.2 El punto de partida: el ticket de PixelVault<a class="headerlink" href="#72-el-punto-de-partida-el-ticket-de-pixelvault" title="Permanent link">¶</a></h2>
+<p>El departamento de ventas nos pasa un ticket de compra y nos pide una base de datos que pueda generarlo:</p>
+<div class="datos">
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pedido n.º</strong></td>
+<td>5001</td>
+</tr>
+<tr>
+<td><strong>Fecha</strong></td>
+<td>2026-09-01</td>
+</tr>
+<tr>
+<td><strong>Jugador</strong></td>
+<td>NoctisRJ · noctis@ejemplo.es · España (IVA 21 %)</td>
+</tr>
+<tr>
+<td><strong>Juego 1</strong></td>
+<td>6 · Hades · Supergiant Games (15) · EE. UU. · 24,50 €</td>
+</tr>
+<tr>
+<td><strong>Juego 2</strong></td>
+<td>5 · Hollow Knight · Team Cherry (16) · Australia · 14,79 €</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td>39,29 €</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<p>Si pasamos varios tickets a una tabla tal cual, obtenemos una tabla <strong>sin normalizar</strong>, con un <strong>grupo repetitivo</strong> (los juegos del pedido) dentro de cada fila:</p>
+<div class="datos">
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+<thead>
+<tr>
+<th>num_pedido</th>
+<th>fecha</th>
+<th>nick</th>
+<th>email</th>
+<th>pais</th>
+<th>iva</th>
+<th>juegos (id, título, estudio, país estudio, precio)</th>
+<th>total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5001</td>
+<td>2026-09-01</td>
+<td>NoctisRJ</td>
+<td>noctis@ejemplo.es</td>
+<td>España</td>
+<td>21</td>
+<td><span class="mal">(6, Hades, 15 Supergiant Games, EE. UU., 24,50); (5, Hollow Knight, 16 Team Cherry, Australia, 14,79)</span></td>
+<td>39,29</td>
+</tr>
+<tr>
+<td>5002</td>
+<td>2026-09-02</td>
+<td>LaTarasca</td>
+<td>tarasca@ejemplo.es</td>
+<td>España</td>
+<td>21</td>
+<td><span class="mal">(6, Hades, 15 Supergiant Games, EE. UU., 19,99); (8, Stardew Valley, 17 ConcernedApe, EE. UU., 13,99)</span></td>
+<td>33,98</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<p>Primero quitamos lo que no se debe guardar: <code>total</code> es un <strong>atributo derivado</strong> (se calcula sumando los precios), así que desaparece.</p>
+<h2 id="73-primera-forma-normal-1fn">7.3 Primera forma normal (1FN)<a class="headerlink" href="#73-primera-forma-normal-1fn" title="Permanent link">¶</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">1FN</p>
+<p>Una tabla está en primera forma normal si <strong>todos sus atributos son atómicos</strong>: cada celda contiene un único valor y no hay grupos repetitivos.</p>
+</div>
+<p>Nuestra tabla no está en 1FN: la columna de juegos contiene una lista. Para arreglarlo, se crea <strong>una fila por cada juego</strong> del pedido, repitiendo los datos del pedido, y se busca la nueva clave primaria. Como un pedido tiene varios juegos, <code>num_pedido</code> ya no basta: la clave es <strong>(num_pedido, id_juego)</strong>.</p>
+<div class="datos">
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+<thead>
+<tr>
+<th><u>num_pedido</u></th>
+<th><u>id_juego</u></th>
+<th>fecha</th>
+<th>nick</th>
+<th>email</th>
+<th>pais</th>
+<th>iva</th>
+<th>titulo</th>
+<th>id_estudio</th>
+<th>nombre_estudio</th>
+<th>pais_estudio</th>
+<th>precio_pagado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5001</td>
+<td>6</td>
+<td>2026-09-01</td>
+<td>NoctisRJ</td>
+<td>noctis@ejemplo.es</td>
+<td>España</td>
+<td>21</td>
+<td>Hades</td>
+<td>15</td>
+<td>Supergiant Games</td>
+<td>EE. UU.</td>
+<td>24,50</td>
+</tr>
+<tr>
+<td>5001</td>
+<td>5</td>
+<td>2026-09-01</td>
+<td>NoctisRJ</td>
+<td>noctis@ejemplo.es</td>
+<td>España</td>
+<td>21</td>
+<td>Hollow Knight</td>
+<td>16</td>
+<td>Team Cherry</td>
+<td>Australia</td>
+<td>14,79</td>
+</tr>
+<tr>
+<td>5002</td>
+<td>6</td>
+<td>2026-09-02</td>
+<td>LaTarasca</td>
+<td>tarasca@ejemplo.es</td>
+<td>España</td>
+<td>21</td>
+<td>Hades</td>
+<td>15</td>
+<td>Supergiant Games</td>
+<td>EE. UU.</td>
+<td>19,99</td>
+</tr>
+<tr>
+<td>5002</td>
+<td>8</td>
+<td>2026-09-02</td>
+<td>LaTarasca</td>
+<td>tarasca@ejemplo.es</td>
+<td>España</td>
+<td>21</td>
+<td>Stardew Valley</td>
+<td>17</td>
+<td>ConcernedApe</td>
+<td>EE. UU.</td>
+<td>13,99</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<p>Ya está en 1FN, pero la redundancia es enorme: los datos de Hades y de Supergiant Games se repiten en cada pedido que los incluye. Para seguir necesitamos las dependencias funcionales de la tabla:</p>
+<div class="mermaid"></div>
+<div class="admonition note">
+<p class="admonition-title">¿Por qué <code>precio_pagado</code> depende de los dos?</p>
+<p>Porque Hades se vendió a 24,50 € en el pedido 5001 y a 19,99 € (en oferta) en el 5002. El precio pagado no lo determina solo el juego ni solo el pedido.</p>
+</div>
+<h2 id="74-segunda-forma-normal-2fn">7.4 Segunda forma normal (2FN)<a class="headerlink" href="#74-segunda-forma-normal-2fn" title="Permanent link">¶</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">2FN</p>
+<p>Una tabla está en segunda forma normal si está en 1FN y <strong>todo atributo que no forma parte de la clave depende de la clave completa</strong>, no de una parte de ella. Es decir, no hay <strong>dependencias parciales</strong>.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Atajo</p>
+<p>Si la clave primaria es <strong>simple</strong> (una sola columna), la tabla está automáticamente en 2FN si está en 1FN: no puede haber dependencias de «una parte» de la clave.</p>
+</div>
+<p>En nuestra tabla hay dependencias parciales:</p>
+<ul>
+<li>De <strong><code>num_pedido</code></strong> solo: <code>fecha</code>, <code>nick</code>, <code>email</code>, <code>pais</code>, <code>iva</code>.</li>
+<li>De <strong><code>id_juego</code></strong> solo: <code>titulo</code>, <code>id_estudio</code>, <code>nombre_estudio</code>, <code>pais_estudio</code>.</li>
+<li>De la clave completa: solo <code>precio_pagado</code>.</li>
+</ul>
+<p>Para pasar a 2FN, cada grupo de atributos se lleva a una tabla con <strong>la parte de la clave de la que depende</strong>, que será su clave primaria:</p>
+<div class="esquema">
+<p><b>PEDIDO</b>(<u>num_pedido</u>, fecha, nick, email, pais, iva)</p>
+<p><b>JUEGO</b>(<u>id_juego</u>, titulo, id_estudio, nombre_estudio, pais_estudio)</p>
+<p><b>LINEA_PEDIDO</b>(<u><span class="fk">num_pedido → PEDIDO</span></u>, <u><span class="fk">id_juego → JUEGO</span></u>, precio_pagado)</p>
+</div>
+
+<p>Hades ya solo aparece una vez en JUEGO. Pero aún quedan problemas: en PEDIDO, el correo de NoctisRJ se repite en todos sus pedidos.</p>
+<h2 id="75-tercera-forma-normal-3fn">7.5 Tercera forma normal (3FN)<a class="headerlink" href="#75-tercera-forma-normal-3fn" title="Permanent link">¶</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">3FN</p>
+<p>Una tabla está en tercera forma normal si está en 2FN y <strong>ningún atributo que no es clave depende de otro atributo que no es clave</strong>. Es decir, no hay <strong>dependencias transitivas</strong>.</p>
+</div>
+<p>Una forma fácil de recordarlo: en 3FN, cada atributo no clave depende de «<strong>la clave, toda la clave y nada más que la clave</strong>».</p>
+<p>Buscamos dependencias entre atributos no clave:</p>
+<ul>
+<li>En PEDIDO: <code>nick → email, pais</code> y <code>pais → iva</code>. Son transitivas.</li>
+<li>En JUEGO: <code>id_estudio → nombre_estudio, pais_estudio</code>. Es transitiva.</li>
+<li>En LINEA_PEDIDO: solo hay un atributo no clave. Ya está en 3FN.</li>
+</ul>
+<p>Para pasar a 3FN, se saca cada dependencia transitiva a una tabla nueva cuya clave es <strong>el determinante</strong>, que se queda en la tabla original como <strong>clave ajena</strong>:</p>
+<div class="esquema">
+<p><b>PAIS</b>(<u>pais</u>, iva)</p>
+<p><b>JUGADOR</b>(<u>nick</u>, email, <span class="fk">pais → PAIS</span>)</p>
+<p><b>PEDIDO</b>(<u>num_pedido</u>, fecha, <span class="fk">nick → JUGADOR</span>)</p>
+<p><b>ESTUDIO</b>(<u>id_estudio</u>, nombre_estudio, pais_estudio)</p>
+<p><b>JUEGO</b>(<u>id_juego</u>, titulo, <span class="fk">id_estudio → ESTUDIO</span>)</p>
+<p><b>LINEA_PEDIDO</b>(<u><span class="fk">num_pedido → PEDIDO</span></u>, <u><span class="fk">id_juego → JUEGO</span></u>, precio_pagado)</p>
+</div>
+
+<p>Comprobemos que han desaparecido las anomalías del apartado 1:</p>
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+<thead>
+<tr>
+<th>Anomalía</th>
+<th>Antes</th>
+<th>Después</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Modificación</td>
+<td>Cambiar el correo de NoctisRJ obligaba a tocar muchas filas</td>
+<td>Se cambia en <strong>una</strong> fila de JUGADOR</td>
+</tr>
+<tr>
+<td>Inserción</td>
+<td>No se podía dar de alta un estudio sin ventas</td>
+<td>Se inserta en ESTUDIO sin más</td>
+</tr>
+<tr>
+<td>Borrado</td>
+<td>Anular el único pedido de FromSoftware borraba el estudio</td>
+<td>Se borra el pedido; el estudio sigue en ESTUDIO</td>
+</tr>
+</tbody>
+</table></div></div>
+<div class="admonition question">
+<p class="admonition-title">Compara con el diseño E/R</p>
+<p>Estas tablas son prácticamente las mismas que obtuvimos en el <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/05-paso-a-tablas.html">apartado 5</a> a partir del diagrama: PEDIDO, JUGADOR, VIDEOJUEGO, ESTUDIO y LINEA_PEDIDO. <strong>Cuando el diagrama E/R está bien hecho, el esquema sale ya normalizado.</strong> La normalización ha descubierto además una tabla nueva, PAIS, porque el ticket incluía el IVA, un dato que no estaba en los requisitos del cliente. Es un buen ejemplo de por qué conviene revisar los documentos reales de la empresa.</p>
+</div>
+<h2 id="76-forma-normal-de-boyce-codd-fnbc">7.6 Forma normal de Boyce-Codd (FNBC)<a class="headerlink" href="#76-forma-normal-de-boyce-codd-fnbc" title="Permanent link">¶</a></h2>
+<p>La 3FN resuelve casi todos los casos reales, pero hay situaciones raras (con varias claves candidatas compuestas que se solapan) en las que una tabla en 3FN todavía tiene redundancia. Para ellas existe una forma normal más estricta.</p>
+<div class="admonition abstract">
+<p class="admonition-title">FNBC</p>
+<p>Una tabla está en forma normal de Boyce-Codd si <strong>todo determinante es clave candidata</strong>. Es decir, para cada dependencia X → Y, X identifica las filas de la tabla.</p>
+</div>
+<h3 id="ejemplo-los-entrenadores-de-pixelvault">Ejemplo: los entrenadores de PixelVault<a class="headerlink" href="#ejemplo-los-entrenadores-de-pixelvault" title="Permanent link">¶</a></h3>
+<p>PixelVault lanza un servicio de entrenamiento para sus jugadores más competitivos, con estas reglas:</p>
+<ul>
+<li>Cada <strong>entrenador</strong> está especializado en <strong>un único videojuego</strong>.</li>
+<li>Cada jugador tiene, <strong>para cada videojuego</strong>, <strong>un único entrenador</strong>.</li>
+<li>Un videojuego puede tener varios entrenadores.</li>
+</ul>
+<div class="datos">
+<div class="md-typeset__scrollwrap"><div class="md-typeset__table"><table>
+<thead>
+<tr>
+<th>id_jugador</th>
+<th>videojuego</th>
+<th>entrenador</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>101</td>
+<td>Counter-Strike 2</td>
+<td>Marta</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Counter-Strike 2</td>
+<td>Marta</td>
+</tr>
+<tr>
+<td>104</td>
+<td>Counter-Strike 2</td>
+<td>Íker</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Fortnite</td>
+<td>Lucas</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>
+<p>Las dependencias funcionales son:</p>
+<ul>
+<li><code>(id_jugador, videojuego) → entrenador</code> (un entrenador por jugador y juego).</li>
+<li><code>entrenador → videojuego</code> (cada entrenador, un solo juego).</li>
+</ul>
+<p>Claves candidatas: <code>(id_jugador, videojuego)</code> y también <code>(id_jugador, entrenador)</code>, porque conociendo el entrenador se sabe el juego.</p>
+<ul>
+<li>¿Está en <strong>3FN</strong>? Sí: el único atributo que depende de algo que no es clave es <code>videojuego</code>, pero <code>videojuego</code> <strong>forma parte de una clave candidata</strong>, y la 3FN lo permite.</li>
+<li>¿Está en <strong>FNBC</strong>? <strong>No</strong>: <code>entrenador</code> es un determinante (<code>entrenador → videojuego</code>) y <strong>no</strong> es clave candidata.</li>
+</ul>
+<p>El problema se nota en los datos: «Marta entrena Counter-Strike 2» está repetido, y si el jugador 104 deja el servicio y era el único alumno de Íker, perdemos que Íker entrena Counter-Strike 2 (anomalía de borrado).</p>
+<p>La solución es descomponer usando la dependencia que molesta:</p>
+<div class="esquema">
+<p><b>ENTRENADOR</b>(<u>entrenador</u>, videojuego)</p>
+<p><b>ENTRENAMIENTO</b>(<u>id_jugador</u>, <u><span class="fk">entrenador → ENTRENADOR</span></u>)</p>
+</div>
+
+<div class="admonition warning">
+<p class="admonition-title">Un precio a pagar</p>
+<p>Con esta descomposición, la regla «un jugador tiene un solo entrenador por juego» ya no se puede garantizar con una clave (el juego no está en ENTRENAMIENTO). Pasar a FNBC a veces obliga a <strong>perder una dependencia</strong>, que habrá que controlar de otra forma y documentar como restricción. Por eso, en la práctica, muchos diseños se quedan en 3FN.</p>
+</div>
+<details class="note">
+<summary>Ampliación: más allá de la FNBC</summary>
+<p>Existen la <strong>cuarta forma normal</strong> (4FN), que trata las <em>dependencias multivaluadas</em>, y la <strong>quinta</strong> (5FN), que trata las <em>dependencias de combinación</em>. Un ejemplo de problema de 4FN: guardar en una misma tabla (jugador, plataforma, idioma_preferido), cuando las plataformas y los idiomas de un jugador son independientes entre sí; habría que repetir cada plataforma con cada idioma. Si has hecho bien el diagrama E/R (plataformas e idiomas como relaciones o multivaluados separados), no te encontrarás con este caso.</p>
+</details>
+<h2 id="77-desnormalizacion">7.7 Desnormalización<a class="headerlink" href="#77-desnormalizacion" title="Permanent link">¶</a></h2>
+<p>A veces, por <strong>rendimiento</strong>, se decide conscientemente dejar una tabla sin normalizar del todo: por ejemplo, guardar <code>nota_media</code> en VIDEOJUEGO para no recalcularla en cada visita a la ficha del juego. Es la <strong>desnormalización</strong>. Es una decisión del diseño físico, se toma después de normalizar (nunca en lugar de normalizar), y obliga a mantener el dato copiado coherente (en Oracle, con disparadores, que verás en la UD 6).</p>
+<h2 id="78-procedimiento-paso-a-paso">7.8 Procedimiento paso a paso<a class="headerlink" href="#78-procedimiento-paso-a-paso" title="Permanent link">¶</a></h2>
+<ol>
+<li>Elimina los <strong>atributos derivados</strong>.</li>
+<li>Identifica la <strong>clave primaria</strong> de la tabla de partida.</li>
+<li><strong>1FN</strong>: elimina los grupos repetitivos (una fila por valor) y revisa la clave.</li>
+<li>Escribe todas las <strong>dependencias funcionales</strong>.</li>
+<li><strong>2FN</strong>: si la clave es compuesta, saca a otra tabla los atributos que dependen de solo una parte.</li>
+<li><strong>3FN</strong>: saca a otra tabla los atributos que dependen de un atributo no clave; el determinante queda como clave ajena.</li>
+<li><strong>FNBC</strong>: comprueba que todo determinante es clave candidata.</li>
+<li>Comprueba que puedes <strong>reconstruir</strong> la información original uniendo las tablas por sus claves.</li>
+</ol>
+<h2 id="resumen">Resumen<a class="headerlink" href="#resumen" title="Permanent link">¶</a></h2>
+<ul>
+<li>Una <strong>dependencia funcional</strong> X → Y dice que X determina un único valor de Y. Se deducen de las reglas del negocio.</li>
+<li><strong>1FN</strong>: valores atómicos. <strong>2FN</strong>: sin dependencias parciales. <strong>3FN</strong>: sin dependencias transitivas. <strong>FNBC</strong>: todo determinante es clave candidata.</li>
+<li>Cada paso se resuelve <strong>descomponiendo</strong> la tabla; el determinante queda como clave ajena.</li>
+<li>Un buen diagrama E/R produce tablas ya normalizadas; la normalización lo <strong>comprueba</strong>.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="" style="top: 78px;">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><circle cx="12" cy="12" r="10"></circle><path d="m16 12-4-4-4 4M12 16V8"></path></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie">
+        
+          
+          <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/06-integridad.html" class="md-footer__link md-footer__link--prev" aria-label="Anterior: 6. Reglas de integridad">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><path d="m12 19-7-7 7-7M19 12H5"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                6. Reglas de integridad
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="https://aulavirtual-educacion.larioja.org/pluginfile.php/1206137/mod_resource/content/1/08-restricciones.html" class="md-footer__link md-footer__link--next" aria-label="Siguiente: 8. Restricciones no representables">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                8. Restricciones no representables
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      IES Comercio · Logroño (La Rioja) · Curso 2026/2027
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      
+      
+        
+        
+      <script id="__config" type="application/json">{"annotate":null,"base":".","features":["content.code.annotate","content.code.copy","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight","toc.follow"],"redirect":null,"search":"./assets/javascripts/workers/search.7d14d953.min.js","tags":null,"translations":{"clipboard.copied":"Copiado al portapapeles","clipboard.copy":"Copiar al portapapeles","search.result.more.one":"1 más en esta página","search.result.more.other":"# más en esta página","search.result.none":"No se encontraron documentos","search.result.one":"1 documento encontrado","search.result.other":"# documentos encontrados","search.result.placeholder":"Teclee para comenzar búsqueda","search.result.term.missing":"Falta","select.version":"Seleccionar versión"},"version":null}</script>
+    
+    
+      <script src="07-normalizacion_files/bundle.c04ba553.min_30Ap.js"></script><div style="position: fixed; height: 100%; top: 0px; z-index: 4;"></div>
+      
+        <script src="07-normalizacion_files/mermaid.min_30Ap.js"></script>
+      
+    
+  
+</body></html>
