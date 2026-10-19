@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Essentials.md",
+                "file": "Programming/Methods/String methods.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Essentials"
+              "title": "String methods"
             }
           }
         ]
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Essentials.md",
+                "file": "Programming/Methods/String methods.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -208,6 +208,7 @@
   },
   "active": "a509ac02fa00119f",
   "lastOpenFiles": [
+    "Git/Essentials.md",
     "Programming/Methods/While loops.md",
     "Base de datos/Diseño_de_Bases_de_Datos/index_files/shim_l8s4.js",
     "Base de datos/Diseño_de_Bases_de_Datos/index_files/palette.812a03bb.min_l8s4.css",
@@ -242,7 +243,6 @@
     "Programming/Methods/String methods.md",
     "Programming/Methods/Integer methods.md",
     "Programming/User input Scanner.md",
-    "Git/Essentials.md",
     "2026-10-07.md",
     "Programación.md"
   ]
