@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Methods/String methods.md",
+                "file": "Programming/Methods/Type casting.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "String methods"
+              "title": "Type casting"
             }
           }
         ]
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Methods/String methods.md",
+                "file": "Programming/Methods/Type casting.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -208,6 +208,12 @@
   },
   "active": "a509ac02fa00119f",
   "lastOpenFiles": [
+    "Payload/payload.js",
+    "Payload/index.html",
+    "Payload",
+    "Programming/Math object.md",
+    "Base de datos/Diseño_de_Bases_de_Datos/01-proceso-de-diseno_files/logo-ies-blanco_k50S.png",
+    "Programming/Methods/String methods.md",
     "Git/Essentials.md",
     "Programming/Methods/While loops.md",
     "Base de datos/Diseño_de_Bases_de_Datos/index_files/shim_l8s4.js",
@@ -219,8 +225,6 @@
     "Base de datos/Diseño_de_Bases_de_Datos/index_files/bundle.c04ba553.min_l8s4.js",
     "Base de datos/Diseño_de_Bases_de_Datos/index_files",
     "Base de datos/Diseño_de_Bases_de_Datos/glosario_files/shim_-5jH.js",
-    "Base de datos/Diseño_de_Bases_de_Datos/glosario_files/palette.812a03bb.min_-5jH.css",
-    "Base de datos/Diseño_de_Bases_de_Datos/glosario_files/mermaid.min_-5jH.js",
     "Base de datos/Diseño_de_Bases_de_Datos/glosario_files/logo-ies-blanco_-5jH.png",
     "Base de datos/Diseño_de_Bases_de_Datos/ejercicios_files/logo-ies-blanco_EgHJ.png",
     "Base de datos/Diseño_de_Bases_de_Datos/caso-pixelvault_files/logo-ies-blanco_pXnq.png",
@@ -229,18 +233,15 @@
     "Base de datos/Diseño_de_Bases_de_Datos/08-restricciones_files/logo-ies-blanco_CYPO.png",
     "Base de datos/Diseño_de_Bases_de_Datos/07-normalizacion_files/logo-ies-blanco_30Ap.png",
     "Base de datos/Diseño_de_Bases_de_Datos/06-integridad_files/logo-ies-blanco_OBOG.png",
-    "Base de datos/Diseño_de_Bases_de_Datos/05-paso-a-tablas_files/logo-ies-blanco_p2d3.png",
     "Base de datos/Types of data.md",
     "Base de datos/Untitled.md",
     "Base de datos/Information.md",
     "Programming/For loops.md",
     "Programming/Ternary operator.md",
     "Programming/Printf.md",
-    "Programming/Math object.md",
     "Programming/Switch.md",
     "Other/Notes.md",
     "Programming/Methods/Type casting.md",
-    "Programming/Methods/String methods.md",
     "Programming/Methods/Integer methods.md",
     "Programming/User input Scanner.md",
     "2026-10-07.md",

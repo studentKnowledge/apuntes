@@ -1,27 +1,83 @@
-## Understanding Type Casting in Java
+# ☕ Java — Type Casting
 
-### What is Type Casting?
+> [!abstract] What is Type Casting? **Type casting** means converting a value from one data type to another.
 
-In Java, type casting is the process of converting a variable from one data type to another. This is often necessary when you want to perform operations that require different data types or when you want to store a value in a variable of a different type.
+## 1. Basic Syntax
 
-### How `(int)` Works in This Context
+```java
+(int) 5.75   // 5
+(double) 5   // 5.0
+(float) 10   // 10.0
+```
 
-In the code snippet `final float height = (int)scanner.nextFloat();`, the `(int)` is a type cast that converts the float value obtained from `scanner.nextFloat()` into an integer. Here’s how it functions:
+## 2. How `(int)` Works
 
-- Input from Scanner: The method `scanner.nextFloat()` reads a floating-point number from user input.
-- Casting to Integer: The `(int)` before `scanner.nextFloat()` truncates the decimal part of the float. This means that any fractional digits are discarded, and only the whole number part is retained.
-- Final Assignment: The resulting integer value is then assigned to the variable `height`, which is declared as a float. However, since `height` is a float, the integer value will be implicitly converted back to a float for storage.
+Example:
 
-### Example
+```java
+Scanner scanner = new Scanner(System.in);
 
-If the user inputs `5.75`, the casting will work as follows:
+final float height = (int) scanner.nextFloat();
 
-- `scanner.nextFloat()` returns `5.75`.
-- `(int)5.75` results in `5` (the decimal part is discarded).
-- `height` will then hold the value `5.0` as a float.
+System.out.println(height);
+```
 
-### Summary
+If the user enters `5.75`, the output is:
 
-The `(int)` cast effectively removes any decimal portion from the float value, allowing for the storage of only the whole number in the variable. This is useful when you need to ensure that only integer values are processed or stored.
+```java
+5.0
+```
+
+**How it works:**
+
+1. `scanner.nextFloat()` reads `5.75`.
+2. `(int)` removes the decimal part → `5`.
+3. Java converts `5` back to a `float` → `5.0`.
+
+> [!warning] Important Casting to `int` **does not round** the number. It removes the decimal part.
+
+```java
+(int) 5.9    // 5
+(int) 5.1    // 5
+(int) -5.9   // -5
+```
+
+## 3. Casting vs. No Casting
+
+**With casting:**
+
+```java
+float number = (int) 7.8f;
+System.out.println(number); // 7.0
+```
+
+**Without casting:**
+
+```java
+float number = 7.8f;
+System.out.println(number); // 7.8
+```
+
+## 4. Quick Summary
+
+|Code|Result|
+|---|---|
+|`(int) 4.9`|`4`|
+|`(int) 8.2`|`8`|
+|`(double) 5`|`5.0`|
+|`(float) 3`|`3.0`|
+
+> [!tip] Remember
+> 
+> - `(int)` removes the decimal part.
+> - `int` stores whole numbers.
+> - `float` stores decimal numbers.
+> - Java can automatically convert an `int` to a `float`.
+
+**Best practice:** If you want to keep the decimal part, don't use `(int)`.
+
+```java
+float height = scanner.nextFloat();
+```
 
 ---
