@@ -127,3 +127,6 @@ For more complex logic, an `if-else-if` statement is often easier to understand.
 - **Best practice:** Prefer readability over shorter code.
 
 > [!tip] Remember Think of the ternary operator as a compact question: **Condition true? → First value : Otherwise → Second value**
+
+
+---
