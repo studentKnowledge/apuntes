@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DAM1/Programming/Methods/Integer methods.md",
-                "mode": "preview",
+                "file": "DAM1/Programming/Ternary operator.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Integer methods"
+              "title": "Ternary operator"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAM1/Programming/Methods/Integer methods.md",
+                "file": "DAM1/Programming/Ternary operator.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -208,6 +208,14 @@
   },
   "active": "8c0c2c2f4a3e83bd",
   "lastOpenFiles": [
+    "DAM1/Sistemas/UT2. Componentes de un Sistema Informático (2).pdf",
+    "DAM1/Sistemas/UT1. Introducción a los Sistemas Informáticos.pdf",
+    "DAM1/Programming/Printf.md",
+    "DAM1/Sistemas/msoC7C4.tmp",
+    "DAM1/Sistemas/msoB2F3.tmp",
+    "DAM1/Sistemas/mso134F.tmp",
+    "DAM1/Sistemas/mso68D.tmp",
+    "DAM1/Programming/Methods/Integer methods.md",
     "DAM1/Programming/Math object.md",
     "DAM1/Programming/Ternary operator.md",
     "DAM1/Sistemas/Untitled.md",
@@ -216,12 +224,6 @@
     "DAM1/Sistemas/New Text Document.txt",
     "DAM1/Sistemas",
     "DAM1/Base de datos/Paso relacional/UD02_Relacional_Inmobiliaria.pdf",
-    "DAM1/Base de datos/Paso relacional",
-    "DAM1/Base de datos/New folder",
-    "DAM1/Base de datos/Diseño/Apuntes_RA6_Diseno_BD.pdf",
-    "DAM1/Base de datos/Normalizacion",
-    "DAM1/Base de datos/Diseño",
-    "DAM1/Base de datos/Diseño",
-    "DAM1/Programming/Utilities"
+    "DAM1/Base de datos/Paso relacional"
   ]
 }
