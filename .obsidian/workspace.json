@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DAM1/Programming/Utilities/Logger.md",
+                "file": "DAM1/Programming/Methods/Integer methods.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Logger"
+              "title": "Integer methods"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAM1/Programming/Utilities/Logger.md",
+                "file": "DAM1/Programming/Methods/Integer methods.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -208,15 +208,20 @@
   },
   "active": "8c0c2c2f4a3e83bd",
   "lastOpenFiles": [
-    "DAM1/Base de datos/Paso relacional/UD02_Relacional_Inmobiliaria.pdf",
+    "DAM1/Programming/Math object.md",
+    "DAM1/Programming/Ternary operator.md",
+    "DAM1/Sistemas/Untitled.md",
+    "DAM1/Programming/User input Scanner.md",
     "DAM1/Programming/Utilities/Logger.md",
+    "DAM1/Sistemas/New Text Document.txt",
+    "DAM1/Sistemas",
+    "DAM1/Base de datos/Paso relacional/UD02_Relacional_Inmobiliaria.pdf",
     "DAM1/Base de datos/Paso relacional",
     "DAM1/Base de datos/New folder",
     "DAM1/Base de datos/Diseño/Apuntes_RA6_Diseno_BD.pdf",
     "DAM1/Base de datos/Normalizacion",
     "DAM1/Base de datos/Diseño",
     "DAM1/Base de datos/Diseño",
-    "DAM1/Programming/Ternary operator.md",
     "DAM1/Programming/Utilities"
   ]
 }
