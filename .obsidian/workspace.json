@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3096a47ef2676782",
+        "id": "d194740f62e4f0ad",
         "type": "tabs",
         "children": [
           {
-            "id": "8c0c2c2f4a3e83bd",
+            "id": "f0be3b93c4042a88",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "DAM1/Programming/Ternary operator.md",
-                "mode": "source",
-                "source": false
+                "file": "DAM1/Sistemas/UT2. Componentes de un Sistema Informático (2).pdf"
               },
-              "icon": "lucide-file",
-              "title": "Ternary operator"
+              "icon": "lucide-file-text",
+              "title": "UT2. Componentes de un Sistema Informático (2)"
             }
           }
         ]
@@ -162,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAM1/Programming/Ternary operator.md",
+                "file": "DAM1/Sistemas/UT2. Componentes de un Sistema Informático (2).pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -206,8 +204,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "8c0c2c2f4a3e83bd",
+  "active": "f0be3b93c4042a88",
   "lastOpenFiles": [
+    "DAM1/Programming/Utilities/Logger.md",
+    "DAM1/Programming/Switch.md",
+    "DAM1/Programming/While loops.md",
+    "DAM1/Programming/For loops.md",
+    "DAM1/Programming/Ternary operator.md",
+    "DAM1/Programming/Methods/String methods.md",
     "DAM1/Sistemas/UT2. Componentes de un Sistema Informático (2).pdf",
     "DAM1/Sistemas/UT1. Introducción a los Sistemas Informáticos.pdf",
     "DAM1/Programming/Printf.md",
@@ -217,10 +221,8 @@
     "DAM1/Sistemas/mso68D.tmp",
     "DAM1/Programming/Methods/Integer methods.md",
     "DAM1/Programming/Math object.md",
-    "DAM1/Programming/Ternary operator.md",
     "DAM1/Sistemas/Untitled.md",
     "DAM1/Programming/User input Scanner.md",
-    "DAM1/Programming/Utilities/Logger.md",
     "DAM1/Sistemas/New Text Document.txt",
     "DAM1/Sistemas",
     "DAM1/Base de datos/Paso relacional/UD02_Relacional_Inmobiliaria.pdf",
