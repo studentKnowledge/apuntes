@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d194740f62e4f0ad",
+        "id": "6c3124cfba73dab0",
         "type": "tabs",
         "children": [
           {
-            "id": "f0be3b93c4042a88",
+            "id": "d2e3e36aa03ef6be",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "DAM1/Sistemas/UT2. Componentes de un Sistema Informático (2).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "UT2. Componentes de un Sistema Informático (2)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -160,7 +158,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAM1/Sistemas/UT2. Componentes de un Sistema Informático (2).pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,28 +201,29 @@
       "bases:Create new base": false
     }
   },
-  "active": "f0be3b93c4042a88",
+  "active": "d2e3e36aa03ef6be",
   "lastOpenFiles": [
+    "DAM1/Base de datos/Instalación Oracle.md",
+    "DAM1/Base de datos/Creación/Apuntes_RA2_Creacion_BD.pdf",
+    "DAM1/Programming/Methods/String methods.md",
+    "DAM1/Base de datos/Creación",
+    "DAM1/Programming/Methods/Integer methods.md",
+    "DAM1/Programming/Math object.md",
+    "DAM1/Programming/For loops.md",
+    "DAM1/Sistemas/UT2. Componentes de un Sistema Informático (2).pdf",
     "DAM1/Programming/Utilities/Logger.md",
     "DAM1/Programming/Switch.md",
     "DAM1/Programming/While loops.md",
-    "DAM1/Programming/For loops.md",
     "DAM1/Programming/Ternary operator.md",
-    "DAM1/Programming/Methods/String methods.md",
-    "DAM1/Sistemas/UT2. Componentes de un Sistema Informático (2).pdf",
     "DAM1/Sistemas/UT1. Introducción a los Sistemas Informáticos.pdf",
     "DAM1/Programming/Printf.md",
     "DAM1/Sistemas/msoC7C4.tmp",
     "DAM1/Sistemas/msoB2F3.tmp",
     "DAM1/Sistemas/mso134F.tmp",
     "DAM1/Sistemas/mso68D.tmp",
-    "DAM1/Programming/Methods/Integer methods.md",
-    "DAM1/Programming/Math object.md",
     "DAM1/Sistemas/Untitled.md",
     "DAM1/Programming/User input Scanner.md",
     "DAM1/Sistemas/New Text Document.txt",
-    "DAM1/Sistemas",
-    "DAM1/Base de datos/Paso relacional/UD02_Relacional_Inmobiliaria.pdf",
-    "DAM1/Base de datos/Paso relacional"
+    "DAM1/Sistemas"
   ]
 }
