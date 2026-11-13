@@ -89,7 +89,7 @@ for (int number : numbers) {
 
 The enhanced for loop is useful when you want to read every element without using indexes.
 
-## 4. Second Way: Using the Arrays Class
+# Common Arrays Methods
 
 Java provides the `Arrays` utility class with useful methods.
 
@@ -99,7 +99,6 @@ First, import it:
 import java.util.Arrays;
 ```
 
-# Common Arrays Methods
 
 |Method|Description|
 |---|---|

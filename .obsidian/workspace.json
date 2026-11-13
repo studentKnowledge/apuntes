@@ -11,10 +11,14 @@
             "id": "d2e3e36aa03ef6be",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DAM1/Programming/Methods/Arrays methods.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Arrays methods"
             }
           }
         ]
@@ -38,7 +42,7 @@
               "state": {
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
@@ -79,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.58101272583008
+    "width": 237.5069465637207
   },
   "right": {
     "id": "d1449531dd98bd20",
@@ -158,6 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DAM1/Programming/Methods/Arrays methods.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.9444580078125
+    "width": 344.0185546875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,27 +208,32 @@
   },
   "active": "d2e3e36aa03ef6be",
   "lastOpenFiles": [
-    "DAM1/Base de datos/Instalación Oracle.md",
+    "DAM1/Programming/Methods/Type casting.md",
+    "DAM1/Programming/Methods/Arrays methods.md",
+    "DAM1/Programming/For loops.md",
     "DAM1/Base de datos/Creación/Apuntes_RA2_Creacion_BD.pdf",
+    "DAM1/Base de datos/Creación/SQL notes/Users, Tables, Types.md",
+    "DAM1/Programming/Math object.md",
+    "DAM1/Base de datos/Paso relacional/UD02_Relacional_Inmobiliaria.pdf",
+    "DAM1/Sistemas/UT1. Introducción a los Sistemas Informáticos.pdf",
+    "DAM1/Programming/Methods/Integer methods.md",
+    "DAM1/Git/Essentials.md",
+    "DAM1/Base de datos/Diseño/Apuntes_RA6_Diseno_BD.pdf",
+    "DAM1/Base de datos/Instalación Oracle.md",
+    "DAM1/Programming/Utilities/Log4j2.md",
     "DAM1/Programming/Methods/String methods.md",
     "DAM1/Base de datos/Creación",
-    "DAM1/Programming/Methods/Integer methods.md",
-    "DAM1/Programming/Math object.md",
-    "DAM1/Programming/For loops.md",
     "DAM1/Sistemas/UT2. Componentes de un Sistema Informático (2).pdf",
     "DAM1/Programming/Utilities/Logger.md",
     "DAM1/Programming/Switch.md",
     "DAM1/Programming/While loops.md",
     "DAM1/Programming/Ternary operator.md",
-    "DAM1/Sistemas/UT1. Introducción a los Sistemas Informáticos.pdf",
     "DAM1/Programming/Printf.md",
     "DAM1/Sistemas/msoC7C4.tmp",
     "DAM1/Sistemas/msoB2F3.tmp",
     "DAM1/Sistemas/mso134F.tmp",
     "DAM1/Sistemas/mso68D.tmp",
     "DAM1/Sistemas/Untitled.md",
-    "DAM1/Programming/User input Scanner.md",
-    "DAM1/Sistemas/New Text Document.txt",
-    "DAM1/Sistemas"
+    "DAM1/Programming/User input Scanner.md"
   ]
 }
