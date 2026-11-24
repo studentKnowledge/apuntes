@@ -1,5 +1,6 @@
 # 🖨️ Java `printf()`
 
+
 > [!summary] What is `printf()`?  
 > `printf()` is used to **print formatted text** to the console.
 > 
