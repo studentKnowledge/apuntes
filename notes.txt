@@ -1,0 +1,3 @@
+Binary Formats Differ: Each OS expects a specific file structure to load code; a Windows PE file is unrecognizable to a Linux kernel using ELF. ⁠
+System Calls Vary: Applications rely on the OS for hardware interaction (e.g., printing or networking). Since Windows and Linux use different system call APIs and conventions, a program compiled for one cannot natively request services from the other.
+Library Dependencies: Executables link to specific system libraries provided by the target OS; missing or incompatible libraries cause the program to fail upon launch. ⁠
