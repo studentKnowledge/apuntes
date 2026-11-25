@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DAM1/Programming/Methods/Arrays methods.md",
+                "file": "DAM1/Base de datos/Creación/SQL notes/2. Alter, Constraints, Modify.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arrays methods"
+              "title": "2. Alter, Constraints, Modify"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.61993026733398
+    "width": 277.5069465637207
   },
   "right": {
     "id": "d1449531dd98bd20",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DAM1/Programming/Methods/Arrays methods.md",
+                "file": "DAM1/Base de datos/Creación/SQL notes/2. Alter, Constraints, Modify.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -193,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.0555419921875
+    "width": 305.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,11 +208,13 @@
   },
   "active": "3531276f186d5471",
   "lastOpenFiles": [
-    "DAM1/Programming/Methods/String methods.md",
+    "DAM1/Base de datos/Creación/SQL notes/1. Users, Tables, Types.md",
+    "DAM1/Base de datos/Creación/SQL notes/2. Alter, Constraints, Modify.md",
+    "DAM1/Base de datos/Creación/SQL notes/Unconfirmed 703925.crdownload",
     "DAM1/Programming/Methods/Arrays methods.md",
+    "DAM1/Programming/Methods/String methods.md",
     "DAM1/Programming/Printf.md",
     "DAM1/Base de datos/Creación/Apuntes_RA2_Creacion_BD.pdf",
-    "DAM1/Base de datos/Creación/SQL notes/Users, Tables, Types.md",
     "DAM1/Programming/Math object.md",
     "DAM1/Programming/Methods/Type casting.md",
     "DAM1/Programming/For loops.md",
@@ -232,7 +234,6 @@
     "DAM1/Sistemas/msoC7C4.tmp",
     "DAM1/Sistemas/msoB2F3.tmp",
     "DAM1/Sistemas/mso134F.tmp",
-    "DAM1/Sistemas/mso68D.tmp",
     "DAM1/Sistemas/Untitled.md",
     "DAM1/Programming/User input Scanner.md"
   ]
